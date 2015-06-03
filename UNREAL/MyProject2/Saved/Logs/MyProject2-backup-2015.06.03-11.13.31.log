@@ -1,0 +1,315 @@
+﻿Log file open, 05/29/15 20:37:44
+LogInit:Display: Running engine for game: MyProject2
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.05.30-00.37.44:760][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.05.30-00.37.44:818][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.05.30-00.37.44:833][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.05.30-00.37.44:844][  0]LogInit: Object subsystem initialized
+[2015.05.30-00.37.44:846][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.05.30-00.37.44:846][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/merli_000/Desktop/UNREAL/MyProject2/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.30-00.37.44:846][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.05.30-00.37.44:846][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/merli_000/Desktop/UNREAL/MyProject2/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.30-00.37.44:846][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.05.30-00.37.44:846][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/merli_000/Desktop/UNREAL/MyProject2/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.05.30-00.37.44:846][  0]LogInit: Selected Device Profile: [Windows]
+[2015.05.30-00.37.44:846][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.05.30-00.37.44:855][  0]LogInit: Computer: MARKLAPTOP
+[2015.05.30-00.37.44:855][  0]LogInit: User: merli000
+[2015.05.30-00.37.44:855][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.05.30-00.37.44:855][  0]LogInit: High frequency timer resolution =2.143575 MHz
+[2015.05.30-00.37.44:856][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.05.30-00.37.44:856][  0]LogMemory: Platform Memory Stats for Windows
+[2015.05.30-00.37.44:856][  0]LogMemory: Process Physical Memory: 46.11 MB used, 46.11 MB peak
+[2015.05.30-00.37.44:856][  0]LogMemory: Process Virtual Memory: 22.52 MB used, 22.53 MB peak
+[2015.05.30-00.37.44:856][  0]LogMemory: Physical Memory: 2359.43 MB used, 8047.77 MB total
+[2015.05.30-00.37.44:856][  0]LogMemory: Virtual Memory: 285.12 MB used, 134217728.00 MB total
+[2015.05.30-00.37.44:873][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.05.30-00.37.44:873][  0]LogD3D11RHI: Adapter has 2062MB of dedicated video memory, 0MB of dedicated system memory, and 4023MB of shared system memory, 1 output[s]
+[2015.05.30-00.37.44:875][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.05.30-00.37.44:875][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.05.30-00.37.44:875][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.05.30-00.37.44:878][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.05.30-00.37.44:887][  0]LogD3D11RHI: Async texture creation enabled
+[2015.05.30-00.37.44:937][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.05.30-00.37.45:003][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.05.30-00.37.45:003][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.05.30-00.37.45:091][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.05.30-00.37.47:651][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.30-00.37.48:254][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.30-00.37.48:324][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.05.30-00.37.48:365][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/merli_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.30-00.37.48:366][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/merli_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.05.30-00.37.48:366][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.05.30-00.37.48:366][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.05.30-00.37.48:497][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.05.30-00.37.48:510][  0]LogDerivedDataCache: Using Local data cache path C:/Users/merli_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.05.30-00.37.48:824][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.05.30-00.37.48:824][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.05.30-00.37.49:265][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.05.30-00.37.49:349][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.05.30-00.37.50:168][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.05.30-00.37.50:376][  0]SourceControl: Info Source control is disabled
+[2015.05.30-00.37.50:377][  0]SourceControl: Info Source control is disabled
+[2015.05.30-00.37.50:377][  0]SourceControl: Info Source control is disabled
+[2015.05.30-00.37.50:377][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.05.30-00.37.50:377][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.05.30-00.37.50:386][  0]SourceControl: Info Source control is disabled
+[2015.05.30-00.37.50:583][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.05.30-00.37.50:583][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.05.30-00.37.50:673][  0]LogEngine: Initializing Engine...
+[2015.05.30-00.37.52:852][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.05.30-00.37.52:862][  0]LogInit: FAudioDevice initialized.
+[2015.05.30-00.37.52:903][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.05.30-00.37.52:924][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/merli_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.05.30-00.37.52:928][  0]LogInit: Texture streaming: Enabled
+[2015.05.30-00.37.53:028][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.05.30-00.37.53:028][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.30-00.37.53:028][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.05.30-00.37.53:028][  0]LogAnalytics: SetUserId 0cee193e45cd42522f6bddbfb67599cf|b7c49468110a42379aa5e2a98db34ec9|b817a7bb-3d94-4ef5-b46f-64c8ee7bd98d
+[2015.05.30-00.37.53:029][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.05.30-00.37.53:050][  0]LogInit: Transaction tracking system initialized
+[2015.05.30-00.37.53:227][  0]BlueprintLog: New page: Editor Load
+[2015.05.30-00.37.53:263][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2015.05.30-00.37.53:263][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.05.30-00.37.53:839][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.30-00.37.54:237][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.05.30-00.37.54:533][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.05.30-00.37.54:533][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.05.30-00.37.54:581][  0]LogConsoleResponse:Display: 
+[2015.05.30-00.37.54:875][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.05.30-00.37.55:026][  0]SourceControl: Info Source control is disabled
+[2015.05.30-00.37.55:026][  0]Cmd: MAP LOAD FILE="../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.05.30-00.37.55:148][  0]LightingResults: New page: Lighting Build
+[2015.05.30-00.37.55:161][  0]MapCheck: New page: Map Check
+[2015.05.30-00.37.55:161][  0]LightingResults: New page: Lighting Build
+[2015.05.30-00.37.55:169][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006ADA4CE980
+[2015.05.30-00.37.59:045][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.05.30-00.37.59:069][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.05.30-00.37.59:084][  0]Cmd: MAP CHECKDEP
+[2015.05.30-00.37.59:084][  0]MapCheck: New page: TopDownExampleMap - May 29, 2015, 4:37:59 PM
+[2015.05.30-00.37.59:174][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 90.496ms to complete.
+[2015.05.30-00.37.59:174][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 4.148
+[2015.05.30-00.37.59:809][  0]LogCollectionManager: Loaded 0 collections in 0.001919 seconds
+[2015.05.30-00.37.59:821][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 1696 classes and 261 folders.
+[2015.05.30-00.37.59:995][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.05.30-00.38.00:090][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2015.05.30-00.38.00:798][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.05.30-00.38.00:841][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.05.30-00.38.00:870][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.05.30-00.38.00:920][  0]LogLoad: Full Startup: 18.18 seconds (BP compile: 0.74 seconds)
+[2015.05.30-00.38.01:562][  0]LogRenderer:Warning: Reallocating scene render targets to support 968x496 (Frame:2).
+[2015.05.30-00.38.02:866][  4]LogAssetRegistry: Asset discovery search completed in 9.6148 seconds
+[2015.05.30-00.38.48:326][303]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.30-00.38.48:326][303]PIE: New page: PIE session: TopDownExampleMap (May 29, 2015, 4:38:48 PM)
+[2015.05.30-00.38.48:358][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032211s)
+[2015.05.30-00.38.48:359][303]LogPlayLevel: PIE: World Init took: (0.000787s)
+[2015.05.30-00.38.48:360][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.033365s)
+[2015.05.30-00.38.48:491][303]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.05.30-00.38.48:643][303]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.05.30-00.38.48:652][303]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.05.30-00.38.48:652][303]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.05.29-20.38.48
+[2015.05.30-00.38.48:714][303]LogWorld: Bringing up level for play took: 0.071098
+[2015.05.30-00.38.48:776][303]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.302
+[2015.05.30-00.38.58:373][241]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006AEBE3E0C0
+[2015.05.30-00.41.23:265][383]LogSavePackage: Save=10.468026ms
+[2015.05.30-00.41.23:265][383]LogSavePackage: Moving '../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Saved/NPC_BehaviorTreeC2D170294BAF20404E8318859B2B7D50.tmp' to '../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Content/TopDownBP/Blueprints/NPC_BehaviorTree.uasset'
+[2015.05.30-00.41.23:289][383]LogSavePackage: Save=4.933347ms
+[2015.05.30-00.41.23:289][383]LogSavePackage: Moving '../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Saved/NPC_BlackboardDataBE7BE6804FBCE6397CF3419736744636.tmp' to '../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Content/TopDownBP/Blueprints/NPC_BlackboardData.uasset'
+[2015.05.30-00.41.34:537][716]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.30-00.41.34:537][716]PIE: New page: PIE session: TopDownExampleMap (May 29, 2015, 4:41:34 PM)
+[2015.05.30-00.41.34:564][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026965s)
+[2015.05.30-00.41.34:565][716]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2015.05.30-00.41.34:565][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.027988s)
+[2015.05.30-00.41.34:608][716]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.05.30-00.41.34:610][716]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.05.30-00.41.34:619][716]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.05.30-00.41.34:619][716]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.05.29-20.41.34
+[2015.05.30-00.41.34:621][716]LogWorld: Bringing up level for play took: 0.010838
+[2015.05.30-00.41.34:623][716]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.149
+[2015.05.30-00.41.36:922][938]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.30-00.41.36:932][938]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006AD267E3E0
+[2015.05.30-00.42.26:328][715]LogSavePackage: Save=11.031571ms
+[2015.05.30-00.42.26:328][715]LogSavePackage: Moving '../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Saved/NPC_BehaviorTreeD5472F80454125A3D6A7FBA1E88B6735.tmp' to '../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Content/TopDownBP/Blueprints/NPC_BehaviorTree.uasset'
+[2015.05.30-00.43.02:632][ 26]LogSavePackage: Save=10.685420ms
+[2015.05.30-00.43.02:633][ 26]LogSavePackage: Moving '../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Saved/NPC_BehaviorTree5F5D8BFE4B58157BD2C0D3A57843EB5D.tmp' to '../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Content/TopDownBP/Blueprints/NPC_BehaviorTree.uasset'
+[2015.05.30-00.43.54:239][816]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.30-00.43.55:425][904]LogRenderer:Warning: Reallocating scene render targets to support 968x728 (Frame:2278).
+[2015.05.30-00.46.06:110][723]BlueprintLog: New page: Compile NPC
+[2015.05.30-00.46.06:252][723]BlueprintEditorCompileResults: Info [0503.52] Compile of NPC successful! [in 142 ms]
+[2015.05.30-00.48.21:106][457]LogSavePackage: Save=2577.768066ms
+[2015.05.30-00.48.21:106][457]LogSavePackage: Moving '../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Saved/TopDownExampleMap_Auto1575BE7B6401E7681DD885C8B7E29C726.tmp' to '../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap'
+[2015.05.30-00.48.21:114][457]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 3.464
+[2015.05.30-00.48.21:114][457]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.464
+[2015.05.30-00.48.21:146][457]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/NPC] ([1] browsable assets)...
+[2015.05.30-00.48.21:189][457]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/NPC.NPC]
+[2015.05.30-00.48.21:189][457]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/NPC]
+[2015.05.30-00.48.21:539][457]LogSavePackage: Save=317.842377ms
+[2015.05.30-00.48.21:540][457]LogSavePackage: Moving '../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Saved/NPC_Auto1A40EA7974B400126ED2554A57AB042D3.tmp' to '../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Blueprints/NPC_Auto1.uasset'
+[2015.05.30-00.48.21:546][457]LogFileHelpers: Auto-saving content packages took 0.432
+[2015.05.30-00.49.14:928][624]Cmd: TRANSACTION UNDO
+[2015.05.30-00.49.14:928][624]LogEditorTransaction: Undo Move Node
+[2015.05.30-00.49.14:962][624]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.30-00.49.22:342][244]LogSavePackage: Save=1731.246216ms
+[2015.05.30-00.49.22:342][244]LogSavePackage: Moving '../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Saved/TopDownExampleMap35857825421633FCE129119D99C9E17D.tmp' to '../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2015.05.30-00.49.22:381][244]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.902
+[2015.05.30-00.49.22:406][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/NPC" FILE="../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Content/TopDownBP/Blueprints/NPC.uasset" SILENT=true
+[2015.05.30-00.49.22:708][244]LogSavePackage: Save=293.418243ms
+[2015.05.30-00.49.22:708][244]LogSavePackage: Moving '../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Saved/NPC60E3528449CF1F360F5BD6846355AFE1.tmp' to '../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Content/TopDownBP/Blueprints/NPC.uasset'
+[2015.05.30-00.49.59:179][617]BlueprintLog: New page: Compile NPC
+[2015.05.30-00.49.59:258][617]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.30-00.49.59:293][617]BlueprintEditorCompileResults: Info [0736.56] Compile of NPC successful! [in 113 ms]
+[2015.05.30-00.50.01:560][863]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.05.30-00.50.01:564][863]LogPlayLevel: [PIE] Compiling ChasePlayer before PIE...
+[2015.05.30-00.50.01:619][863]LogPlayLevel: [PIE] Compiling Wander before PIE...
+[2015.05.30-00.50.01:674][863]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.05.30-00.50.01:696][863]LogPlayLevel: PIE:  Blueprint regeneration took 136 ms (2 blueprints)
+[2015.05.30-00.50.01:697][863]PIE: New page: PIE session: TopDownExampleMap (May 29, 2015, 4:50:01 PM)
+[2015.05.30-00.50.01:723][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026149s)
+[2015.05.30-00.50.01:729][863]LogPlayLevel: PIE: World Init took: (0.005656s)
+[2015.05.30-00.50.01:729][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.032205s)
+[2015.05.30-00.50.01:768][863]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.05.30-00.50.01:769][863]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.05.30-00.50.01:779][863]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.05.30-00.50.01:780][863]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.05.29-20.50.01
+[2015.05.30-00.50.01:792][863]LogWorld: Bringing up level for play took: 0.021888
+[2015.05.30-00.50.01:794][863]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.68
+[2015.05.30-00.50.19:702][580]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006A99CAB420
+[2015.05.30-00.50.21:297][753]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.05.30-00.50.21:297][753]PIE: New page: PIE session: TopDownExampleMap (May 29, 2015, 4:50:21 PM)
+[2015.05.30-00.50.21:322][753]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024791s)
+[2015.05.30-00.50.21:326][753]LogPlayLevel: PIE: World Init took: (0.003393s)
+[2015.05.30-00.50.21:326][753]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.029013s)
+[2015.05.30-00.50.21:365][753]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.05.30-00.50.21:367][753]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.05.30-00.50.21:377][753]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.05.30-00.50.21:377][753]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.05.29-20.50.21
+[2015.05.30-00.50.21:379][753]LogWorld: Bringing up level for play took: 0.010939
+[2015.05.30-00.50.21:381][753]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.907
+[2015.05.30-00.50.43:908][944]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006AD28A0CC0
+[2015.05.30-00.50.48:174][221]LogSavePackage: Save=1744.495972ms
+[2015.05.30-00.50.48:174][221]LogSavePackage: Moving '../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Saved/TopDownExampleMap1916F1C24728B018115E8ABBED637B65.tmp' to '../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2015.05.30-00.50.48:215][221]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.919
+[2015.05.30-00.50.48:236][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/NPC" FILE="../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Content/TopDownBP/Blueprints/NPC.uasset" SILENT=true
+[2015.05.30-00.50.48:500][221]LogSavePackage: Save=255.602432ms
+[2015.05.30-00.50.48:500][221]LogSavePackage: Moving '../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Saved/NPC296B66C44D84A359229F66B62DB80FE1.tmp' to '../../../../../../Users/merli_000/Desktop/UNREAL/MyProject2/Content/TopDownBP/Blueprints/NPC.uasset'
+[2015.05.30-03.51.13:408][399]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.06.01-16.34.22:329][936]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.01-16.34.22:330][936]PIE: New page: PIE session: TopDownExampleMap (Jun 1, 2015, 8:34:22 AM)
+[2015.06.01-16.34.22:360][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030289s)
+[2015.06.01-16.34.22:365][936]LogPlayLevel: PIE: World Init took: (0.004138s)
+[2015.06.01-16.34.22:365][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.035241s)
+[2015.06.01-16.34.22:404][936]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.01-16.34.22:406][936]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.01-16.34.22:416][936]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.01-16.34.22:416][936]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.01-12.34.22
+[2015.06.01-16.34.22:417][936]LogWorld: Bringing up level for play took: 0.011185
+[2015.06.01-16.34.22:419][936]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.17
+[2015.06.01-16.34.49:663][566]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.01-16.34.49:680][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006AD27607C0
+[2015.06.01-16.34.49:681][566]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006AECF418A0
+[2015.06.01-17.06.04:572][741]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.06.01-17.06.04:581][742]LogHttp:Warning: Timeout processing Http request. 0000006ADD3D1B40 url=http://et2.epicgames.com/ET2/CollectData.1?SessionID=%7B7347DCAF-4802-8EF9-5ABF-B99283FA35A2%7D&AppID=Rocket.Release&AppVersion=4.7.6-2513093%2B%2B%2Bdepot%2BUE4-Releases%2B4.7&UserID=0cee193e45cd42522f6bddbfb67599cf%7Cb7c49468110a42379aa5e2a98db34ec9%7Cb817a7bb-3d94-4ef5-b46f-64c8ee7bd98d&IsEditor=1
+[2015.06.01-17.06.04:581][742]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 0000006ADD3D1B40. 
+[2015.06.01-17.06.04:581][742]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 0000006ADD3D1B40. 
+[2015.06.01-17.06.04:582][742]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 0000006ADD3D1B40. 
+[2015.06.01-19.23.30:815][421]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.06.01-19.30.58:263][823]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.01-19.30.58:263][823]PIE: New page: PIE session: TopDownExampleMap (Jun 1, 2015, 11:30:58 AM)
+[2015.06.01-19.30.58:299][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035357s)
+[2015.06.01-19.30.58:304][823]LogPlayLevel: PIE: World Init took: (0.004669s)
+[2015.06.01-19.30.58:304][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.040832s)
+[2015.06.01-19.30.58:346][823]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.01-19.30.58:348][823]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.01-19.30.58:358][823]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.01-19.30.58:358][823]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.01-15.30.58
+[2015.06.01-19.30.58:360][823]LogWorld: Bringing up level for play took: 0.011238
+[2015.06.01-19.30.58:362][823]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.206
+[2015.06.01-19.31.25:496][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.01-19.31.25:530][385]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006AD267FBA0
+[2015.06.01-19.32.00:498][462]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.01-19.32.00:498][462]PIE: New page: PIE session: TopDownExampleMap (Jun 1, 2015, 11:32:00 AM)
+[2015.06.01-19.32.00:526][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027659s)
+[2015.06.01-19.32.00:531][462]LogPlayLevel: PIE: World Init took: (0.003835s)
+[2015.06.01-19.32.00:531][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.032294s)
+[2015.06.01-19.32.00:570][462]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.01-19.32.00:572][462]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.01-19.32.00:582][462]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.01-19.32.00:583][462]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.01-15.32.00
+[2015.06.01-19.32.00:584][462]LogWorld: Bringing up level for play took: 0.011116
+[2015.06.01-19.32.00:586][462]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.018
+[2015.06.01-19.32.16:640][417]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006AD4AAAAC0
+[2015.06.01-19.47.32:571][326]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.06.01-19.47.53:090][735]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.01-19.47.53:090][735]PIE: New page: PIE session: TopDownExampleMap (Jun 1, 2015, 11:47:53 AM)
+[2015.06.01-19.47.53:120][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029077s)
+[2015.06.01-19.47.53:125][735]LogPlayLevel: PIE: World Init took: (0.004025s)
+[2015.06.01-19.47.53:125][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.034024s)
+[2015.06.01-19.47.53:165][735]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.01-19.47.53:167][735]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.01-19.47.53:177][735]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.01-19.47.53:177][735]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.01-15.47.53
+[2015.06.01-19.47.53:178][735]LogWorld: Bringing up level for play took: 0.011015
+[2015.06.01-19.47.53:180][735]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.623
+[2015.06.01-19.48.10:064][739]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.01-19.48.10:080][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006AECE40680
+[2015.06.01-22.49.35:846][595]LogHttp:Warning: Timeout processing Http request. 0000006A9E2C4D40 url=http://et2.epicgames.com/ET2/CollectData.1?SessionID=%7B7347DCAF-4802-8EF9-5ABF-B99283FA35A2%7D&AppID=Rocket.Release&AppVersion=4.7.6-2513093%2B%2B%2Bdepot%2BUE4-Releases%2B4.7&UserID=0cee193e45cd42522f6bddbfb67599cf%7Cb7c49468110a42379aa5e2a98db34ec9%7Cb817a7bb-3d94-4ef5-b46f-64c8ee7bd98d&IsEditor=1
+[2015.06.01-22.49.35:846][595]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 0000006A9E2C4D40. 
+[2015.06.01-22.49.35:846][595]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 0000006A9E2C4D40. 
+[2015.06.01-22.49.35:846][595]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 0000006A9E2C4D40. 
+[2015.06.03-14.19.42:806][987]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.06.03-14.19.42:816][988]LogHttp:Warning: Timeout processing Http request. 0000006A9E37AE80 url=http://et2.epicgames.com/ET2/CollectData.1?SessionID=%7B7347DCAF-4802-8EF9-5ABF-B99283FA35A2%7D&AppID=Rocket.Release&AppVersion=4.7.6-2513093%2B%2B%2Bdepot%2BUE4-Releases%2B4.7&UserID=0cee193e45cd42522f6bddbfb67599cf%7Cb7c49468110a42379aa5e2a98db34ec9%7Cb817a7bb-3d94-4ef5-b46f-64c8ee7bd98d&IsEditor=1
+[2015.06.03-14.19.42:816][988]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 0000006A9E37AE80. 
+[2015.06.03-14.19.42:816][988]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 0000006A9E37AE80. 
+[2015.06.03-14.19.42:816][988]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 0000006A9E37AE80. 
+[2015.06.03-14.20.50:858][490]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.03-14.20.50:859][490]PIE: New page: PIE session: TopDownExampleMap (Jun 3, 2015, 6:20:50 AM)
+[2015.06.03-14.20.50:890][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031241s)
+[2015.06.03-14.20.50:891][490]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2015.06.03-14.20.50:892][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.032411s)
+[2015.06.03-14.20.50:929][490]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.03-14.20.50:932][490]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.03-14.20.50:942][490]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.03-14.20.50:942][490]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.03-10.20.50
+[2015.06.03-14.20.50:943][490]LogWorld: Bringing up level for play took: 0.011262
+[2015.06.03-14.20.50:945][490]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.266
+[2015.06.03-14.20.56:361][770]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.03-14.20.56:380][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006A9FDD4E00
+[2015.06.03-14.20.56:380][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006A9DFB3600
+[2015.06.03-14.21.37:992][165]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.03-14.21.37:992][165]PIE: New page: PIE session: TopDownExampleMap (Jun 3, 2015, 6:21:37 AM)
+[2015.06.03-14.21.38:017][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024543s)
+[2015.06.03-14.21.38:021][165]LogPlayLevel: PIE: World Init took: (0.004485s)
+[2015.06.03-14.21.38:021][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.029330s)
+[2015.06.03-14.21.38:061][165]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.03-14.21.38:063][165]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.03-14.21.38:073][165]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.03-14.21.38:073][165]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.03-10.21.38
+[2015.06.03-14.21.38:074][165]LogWorld: Bringing up level for play took: 0.011141
+[2015.06.03-14.21.38:076][165]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.603
+[2015.06.03-14.21.42:117][404]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.03-14.21.42:134][404]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006AF240CB80
+[2015.06.03-14.21.43:489][485]Cmd: TRANSACTION UNDO
+[2015.06.03-14.21.43:490][485]LogEditorTransaction: Undo Clear Children
+[2015.06.03-14.21.45:868][615]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.03-14.21.45:868][615]PIE: New page: PIE session: TopDownExampleMap (Jun 3, 2015, 6:21:45 AM)
+[2015.06.03-14.21.45:891][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023114s)
+[2015.06.03-14.21.45:896][615]LogPlayLevel: PIE: World Init took: (0.004370s)
+[2015.06.03-14.21.45:896][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.027776s)
+[2015.06.03-14.21.45:933][615]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.03-14.21.45:935][615]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.03-14.21.45:945][615]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.03-14.21.45:945][615]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.03-10.21.45
+[2015.06.03-14.21.45:946][615]LogWorld: Bringing up level for play took: 0.011043
+[2015.06.03-14.21.45:948][615]PIE: Info Play in editor start time for /Game/Top
