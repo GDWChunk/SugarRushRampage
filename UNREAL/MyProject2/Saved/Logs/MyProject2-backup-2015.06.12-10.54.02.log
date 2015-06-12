@@ -1,0 +1,1278 @@
+﻿Log file open, 06/10/15 14:32:35
+LogInit:Display: Running engine for game: MyProject2
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.06.10-18.32.35:536][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.06.10-18.32.35:609][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.10-18.32.35:625][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.10-18.32.35:635][  0]LogInit: Object subsystem initialized
+[2015.06.10-18.32.35:637][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.06.10-18.32.35:637][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.10-18.32.35:637][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.06.10-18.32.35:637][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.10-18.32.35:637][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.06.10-18.32.35:637][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.10-18.32.35:638][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.10-18.32.35:638][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.10-18.32.35:647][  0]LogInit: Computer: MARKLAPTOP
+[2015.06.10-18.32.35:647][  0]LogInit: User: merli000
+[2015.06.10-18.32.35:647][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.06.10-18.32.35:647][  0]LogInit: High frequency timer resolution =2.143579 MHz
+[2015.06.10-18.32.35:648][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.06.10-18.32.35:648][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.10-18.32.35:648][  0]LogMemory: Process Physical Memory: 46.19 MB used, 46.19 MB peak
+[2015.06.10-18.32.35:648][  0]LogMemory: Process Virtual Memory: 26.47 MB used, 26.47 MB peak
+[2015.06.10-18.32.35:648][  0]LogMemory: Physical Memory: 2110.76 MB used, 8047.77 MB total
+[2015.06.10-18.32.35:648][  0]LogMemory: Virtual Memory: 289.19 MB used, 134217728.00 MB total
+[2015.06.10-18.32.35:662][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2015.06.10-18.32.35:662][  0]LogD3D11RHI: Adapter has 2062MB of dedicated video memory, 0MB of dedicated system memory, and 4023MB of shared system memory, 1 output[s]
+[2015.06.10-18.32.35:663][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.06.10-18.32.35:663][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.06.10-18.32.35:663][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.10-18.32.35:666][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.06.10-18.32.35:673][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.10-18.32.35:719][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.06.10-18.32.35:783][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.06.10-18.32.35:783][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.06.10-18.32.35:873][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.06.10-18.32.38:262][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.10-18.32.38:816][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.10-18.32.38:881][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.10-18.32.38:929][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/merli_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.10-18.32.38:929][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/merli_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.06.10-18.32.38:929][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.10-18.32.38:929][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.10-18.32.39:057][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.10-18.32.39:070][  0]LogDerivedDataCache: Using Local data cache path C:/Users/merli_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.10-18.32.39:381][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.10-18.32.39:381][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.10-18.32.39:828][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.10-18.32.39:908][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.06.10-18.32.40:701][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.06.10-18.32.40:921][  0]SourceControl: Info Source control is disabled
+[2015.06.10-18.32.40:921][  0]SourceControl: Info Source control is disabled
+[2015.06.10-18.32.40:921][  0]SourceControl: Info Source control is disabled
+[2015.06.10-18.32.40:930][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.06.10-18.32.40:938][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.github.0
+'
+[2015.06.10-18.32.41:127][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.06.10-18.32.41:127][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.06.10-18.32.41:214][  0]LogEngine: Initializing Engine...
+[2015.06.10-18.32.43:404][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.06.10-18.32.43:415][  0]LogInit: FAudioDevice initialized.
+[2015.06.10-18.32.43:454][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.10-18.32.43:473][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/merli_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.10-18.32.43:478][  0]LogInit: Texture streaming: Enabled
+[2015.06.10-18.32.43:575][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.10-18.32.43:575][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.10-18.32.43:575][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.10-18.32.43:575][  0]LogAnalytics: SetUserId 0cee193e45cd42522f6bddbfb67599cf|b7c49468110a42379aa5e2a98db34ec9|b817a7bb-3d94-4ef5-b46f-64c8ee7bd98d
+[2015.06.10-18.32.43:575][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.06.10-18.32.43:596][  0]LogInit: Transaction tracking system initialized
+[2015.06.10-18.32.43:781][  0]BlueprintLog: New page: Editor Load
+[2015.06.10-18.32.43:816][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2015.06.10-18.32.43:816][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.06.10-18.32.44:390][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.10-18.32.44:787][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.10-18.32.45:017][  0]LogLinker:Warning: Can't find file '/Game/TwinStickBP/TwinStickOverview'
+[2015.06.10-18.32.45:017][  0]LogLinker:Warning: Can't find file '/Game/TwinStickBP/TwinStickOverview'
+[2015.06.10-18.32.45:017][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TwinStickBP/TwinStickOverview.TwinStickOverview_C'
+[2015.06.10-18.32.45:050][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.06.10-18.32.45:051][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.06.10-18.32.45:098][  0]LogConsoleResponse:Display: 
+[2015.06.10-18.32.45:242][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.06.10-18.32.45:386][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.06.10-18.32.45:393][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.github.0
+'
+[2015.06.10-18.32.58:273][  0]Cmd: MAP LOAD FILE="../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.10-18.32.58:274][  0]LightingResults: New page: Lighting Build
+[2015.06.10-18.32.58:291][  0]MapCheck: New page: Map Check
+[2015.06.10-18.32.58:291][  0]LightingResults: New page: Lighting Build
+[2015.06.10-18.32.58:302][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BBAB68680
+[2015.06.10-18.33.00:067][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.10-18.33.00:067][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.10-18.33.00:068][  0]Cmd: MAP CHECKDEP
+[2015.06.10-18.33.00:069][  0]MapCheck: New page: TopDownExampleMap - Jun 10, 2015, 10:33:00 AM
+[2015.06.10-18.33.00:162][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 93.753ms to complete.
+[2015.06.10-18.33.00:162][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 1.889
+[2015.06.10-18.33.00:260][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_11ac_0///////STATCAT_Advanced//// old //STATGROUP_Threads//SplashScreenThread///Thread_b70_0///////STATCAT_Advanced////
+[2015.06.10-18.33.00:260][  0]LogSourceControl: RunCommandInternalRaw: 'git status'
+[2015.06.10-18.33.00:260][  0]LogCollectionManager: Loaded 0 collections in 0.001925 seconds
+[2015.06.10-18.33.00:270][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 1696 classes and 261 folders.
+[2015.06.10-18.33.00:288][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.06.10-18.33.00:305][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2015.06.10-18.33.00:511][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='On branch newm
+Your branch is up-to-date with 'origin/newm'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   UNREAL/MyProject2/Intermediate/CachedAssetRegistry.bin
+	modified:   UNREAL/MyProject2/Saved/Autosaves/PackageRestoreData.json
+	modified:   UNREAL/MyProject2/Saved/Config/Windows/Editor.ini
+	modified:   UNREAL/MyProject2/Saved/Config/Windows/EditorLayout.ini
+	modified:   UNREAL/MyProject2/Saved/Config/Windows/EditorUserSettings.ini
+	modified:   UNREAL/MyProject2/Saved/Logs/MyProject2.log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	UNREAL/MyProject2/Saved/Logs/MyProject2-backup-2015.06.10-14.32.35.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+'
+[2015.06.10-18.33.00:511][  0]LogSourceControl: RunCommandInternalRaw: 'git symbolic-ref --short HEAD'
+[2015.06.10-18.33.00:511][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='newm
+'
+[2015.06.10-18.33.00:511][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.06.10-18.33.00:512][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.06.10-18.33.00:518][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.06.10-18.33.00:543][  0]LogLoad: Full Startup: 27.37 seconds (BP compile: 0.46 seconds)
+[2015.06.10-18.33.00:711][  0]SourceControl: Info newm
+[2015.06.10-18.33.00:793][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.06.10-18.33.01:062][  0]LogRenderer:Warning: Reallocating scene render targets to support 1016x448 (Frame:3).
+[2015.06.10-18.33.01:445][  5]LogAssetRegistry: Asset discovery search completed in 17.6404 seconds
+[2015.06.10-18.33.05:308][220]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-18.33.05:308][220]PIE: New page: PIE session: TopDownExampleMap (Jun 10, 2015, 10:33:05 AM)
+[2015.06.10-18.33.05:338][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028883s)
+[2015.06.10-18.33.05:338][220]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2015.06.10-18.33.05:339][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.029970s)
+[2015.06.10-18.33.05:417][220]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.10-18.33.05:419][220]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.10-18.33.05:429][220]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.10-18.33.05:429][220]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.10-14.33.05
+[2015.06.10-18.33.05:431][220]LogWorld: Bringing up level for play took: 0.011382
+[2015.06.10-18.33.05:433][220]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.722
+[2015.06.10-18.33.18:565][998]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.10-18.33.18:580][998]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BBFE9AFC0
+[2015.06.10-18.33.35:116][916]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Blueprints/ChasePlayer.uasset" "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Blueprints/NPC.uasset" "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Blueprints/NPC_AnimBlueprint.uasset" "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Blueprints/NPC_BehaviorTree.uasset" "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Blueprints/NPC_BlackboardData.uasset" "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Blueprints/NPC_Controller.uasset" "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Blueprints/NPC_Movement.uasset" "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Blueprints/Projectile.uasset" "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Blueprints/TopDownController.uasset" "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Blueprints/TopDownGameMode.uasset" "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Blueprints/Wander.uasset"'
+[2015.06.10-18.33.35:132][917]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.33.35:133][917]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Meshes/CubeMaterial.uasset" "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Meshes/CubeMesh.uasset"'
+[2015.06.10-18.33.35:149][918]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.33.35:149][918]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Character/TopDownAnimBlueprint.uasset" "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Character/TopDownIdleRun.uasset" "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Character/TopDownSkeletalMesh.uasset" "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Character/TopDownSkeleton.uasset"'
+[2015.06.10-18.33.35:183][920]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.33.35:183][920]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/TopDownExampleMap.umap"'
+[2015.06.10-18.33.35:200][921]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.33.35:200][921]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Animations/TopDownIdle.uasset" "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Animations/TopDownRun.uasset" "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Animations/TopDownWalk.uasset"'
+[2015.06.10-18.33.35:216][922]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.33.35:216][922]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/TopDownOverview.uasset"'
+[2015.06.10-18.33.35:233][923]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.34.51:575][321]BlueprintLog: New page: Compile TopDownCharacter
+[2015.06.10-18.34.51:647][321]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-18.34.51:648][321]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.10-18.34.51:648][321]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.06.10-18.34.51:676][321]BlueprintEditorCompileResults: Info [0138.50] Compile of TopDownCharacter successful! [in 100 ms]
+[2015.06.10-18.34.54:084][461]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-18.34.54:084][461]PIE: New page: PIE session: TopDownExampleMap (Jun 10, 2015, 10:34:54 AM)
+[2015.06.10-18.34.54:110][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025339s)
+[2015.06.10-18.34.54:114][461]LogPlayLevel: PIE: World Init took: (0.003240s)
+[2015.06.10-18.34.54:114][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.029357s)
+[2015.06.10-18.34.54:155][461]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.10-18.34.54:157][461]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.10-18.34.54:167][461]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.10-18.34.54:167][461]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.10-14.34.54
+[2015.06.10-18.34.54:169][461]LogWorld: Bringing up level for play took: 0.011374
+[2015.06.10-18.34.54:170][461]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.015
+[2015.06.10-18.35.00:628][789]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.00:653][790]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.00:679][791]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.00:704][792]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.00:731][793]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.00:757][794]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.00:783][795]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.00:808][796]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.00:835][797]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.00:860][798]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.00:899][799]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.01:017][804]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.01:043][805]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.01:070][806]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.01:096][807]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.01:123][808]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.01:149][809]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.01:176][810]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.01:204][811]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.01:230][812]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.01:271][813]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.01:300][814]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.01:311][815]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.05:011][941]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.05:042][942]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.05:080][943]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.05:112][944]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.08:105][ 34]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.08:140][ 35]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.08:175][ 36]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.08:209][ 37]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.08:245][ 38]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.08:286][ 39]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.08:325][ 40]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.08:359][ 41]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.08:386][ 42]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.08:433][ 43]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.08:465][ 44]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.08:491][ 45]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.08:539][ 46]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.08:561][ 47]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.08:596][ 48]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.08:631][ 49]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.09:681][ 78]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.09:717][ 79]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.09:753][ 80]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.09:789][ 81]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.09:826][ 82]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.12:740][159]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.14:544][204]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.14:585][205]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.14:626][206]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.14:667][207]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.14:708][208]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.14:750][209]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.14:797][210]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.14:838][211]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.14:879][212]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.14:920][213]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.14:962][214]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.15:003][215]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.15:045][216]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.15:086][217]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.15:128][218]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.15:169][219]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.15:222][220]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.16:755][256]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.16:785][257]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.16:834][258]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.16:888][259]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.16:918][260]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.16:974][261]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.17:006][262]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.17:062][263]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.17:102][264]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.17:148][265]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.17:194][266]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.17:231][267]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.35.17:912][281]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-18.35.17:947][281]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BBDE3D080
+[2015.06.10-18.36.12:737][515]BlueprintLog: New page: Compile TopDownCharacter
+[2015.06.10-18.36.12:808][515]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-18.36.12:808][515]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.10-18.36.12:808][515]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.06.10-18.36.12:836][515]BlueprintEditorCompileResults: Info [0219.67] Compile of TopDownCharacter successful! [in 99 ms]
+[2015.06.10-18.36.14:440][606]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-18.36.14:440][606]PIE: New page: PIE session: TopDownExampleMap (Jun 10, 2015, 10:36:14 AM)
+[2015.06.10-18.36.14:469][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028768s)
+[2015.06.10-18.36.14:475][606]LogPlayLevel: PIE: World Init took: (0.005475s)
+[2015.06.10-18.36.14:475][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.034519s)
+[2015.06.10-18.36.14:511][606]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.10-18.36.14:513][606]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.10-18.36.14:523][606]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.10-18.36.14:523][606]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.10-14.36.14
+[2015.06.10-18.36.14:525][606]LogWorld: Bringing up level for play took: 0.011349
+[2015.06.10-18.36.14:527][606]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.372
+[2015.06.10-18.36.15:888][681]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-18.36.15:888][681]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.06.10-18.36.15:906][681]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BDBA40FE0
+[2015.06.10-18.39.11:703][171]BlueprintLog: New page: Compile TopDownCharacter
+[2015.06.10-18.39.11:774][171]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-18.39.11:775][171]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.10-18.39.11:775][171]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.06.10-18.39.11:805][171]BlueprintEditorCompileResults: Info [0398.63] Compile of TopDownCharacter successful! [in 101 ms]
+[2015.06.10-18.39.13:433][261]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-18.39.13:434][261]PIE: New page: PIE session: TopDownExampleMap (Jun 10, 2015, 10:39:13 AM)
+[2015.06.10-18.39.13:466][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032135s)
+[2015.06.10-18.39.13:467][261]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2015.06.10-18.39.13:467][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.033153s)
+[2015.06.10-18.39.13:511][261]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.10-18.39.13:513][261]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.10-18.39.13:524][261]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.10-18.39.13:524][261]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.10-14.39.13
+[2015.06.10-18.39.13:525][261]LogWorld: Bringing up level for play took: 0.011372
+[2015.06.10-18.39.13:527][261]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.628
+[2015.06.10-18.39.15:448][372]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.39.15:466][373]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.39.15:654][384]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.39.15:682][386]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.39.15:699][387]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.39.16:880][452]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.39.18:897][550]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.18:919][551]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.18:941][552]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.18:964][553]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.18:994][554]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:009][555]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:039][556]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:061][557]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:088][558]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:100][559]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:122][560]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:144][561]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:168][562]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:236][565]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:259][566]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:291][567]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:305][568]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:328][569]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:351][570]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:375][571]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:397][572]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:421][573]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:444][574]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:467][575]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:491][576]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:514][577]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:537][578]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:570][579]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:586][580]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:610][581]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:634][582]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:657][583]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:681][584]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:705][585]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:728][586]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:753][587]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:777][588]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:802][589]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:825][590]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:855][591]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:888][592]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:907][593]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:935][594]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:954][595]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:974][596]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.19:998][597]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.20:022][598]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.20:046][599]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.20:070][600]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.20:095][601]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.20:120][602]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.20:144][603]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.20:168][604]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.20:193][605]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.20:224][606]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.20:242][607]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.20:267][608]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.20:292][609]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.20:316][610]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.20:341][611]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.20:366][612]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.20:392][613]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.20:416][614]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.20:441][615]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.20:466][616]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.20:492][617]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.20:518][618]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.21:081][640]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.21:107][641]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.21:133][642]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.21:158][643]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.21:183][644]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.21:209][645]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.21:235][646]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.21:260][647]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.21:286][648]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.21:313][649]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.21:339][650]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.21:364][651]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.21:391][652]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.21:417][653]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.21:442][654]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.21:469][655]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.21:495][656]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.21:521][657]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.21:559][658]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.21:574][659]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.21:612][660]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:252][684]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:280][685]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:307][686]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:364][688]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:392][689]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:419][690]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:447][691]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:475][692]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:503][693]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:531][694]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:558][695]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:586][696]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:614][697]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:651][698]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:670][699]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:709][700]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:727][701]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:756][702]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:784][703]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:812][704]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:846][705]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:869][706]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:897][707]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:929][708]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:958][709]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.22:987][710]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:015][711]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:044][712]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:072][713]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:101][714]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:130][715]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:159][716]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:196][717]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:217][718]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:254][719]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:275][720]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:304][721]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:345][722]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:363][723]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:393][724]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:421][725]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:451][726]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:483][727]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:510][728]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:538][729]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:579][730]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:597][731]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:626][732]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:656][733]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:685][734]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:714][735]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:744][736]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:774][737]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:803][738]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:834][739]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:864][740]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:904][741]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:924][742]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:967][743]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.23:994][744]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.24:017][745]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.24:048][746]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.24:078][747]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.24:122][748]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.24:137][749]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.24:168][750]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.25:426][791]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.25:468][792]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.25:497][793]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.25:530][794]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.25:563][795]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.25:583][796]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.25:614][797]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.25:645][798]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.25:676][799]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.25:708][800]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.25:739][801]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.25:771][802]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.25:803][803]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.25:834][804]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.25:865][805]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.25:897][806]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.25:929][807]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.25:965][808]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.25:997][809]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.26:029][810]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.30:538][941]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.30:574][942]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.30:611][943]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.30:648][944]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.30:684][945]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.30:721][946]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.30:768][947]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.30:795][948]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.30:832][949]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.30:877][950]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.30:905][951]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.30:948][952]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.30:981][953]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.31:035][954]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.31:073][955]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.31:100][956]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.31:145][957]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.31:185][958]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.31:222][959]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.31:249][960]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.31:287][961]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.31:339][962]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.32:093][982]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.32:125][983]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.35:284][ 62]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.35:326][ 63]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.35:502][ 67]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.35:541][ 68]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.35:706][ 72]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.35:741][ 73]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.39.43:443][243]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-18.39.43:443][243]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.10-18.39.43:443][243]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.06.10-18.39.43:475][243]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BDBA413A0
+[2015.06.10-18.40.16:277][189]BlueprintLog: New page: Compile TopDownCharacter
+[2015.06.10-18.40.16:347][189]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-18.40.16:347][189]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.10-18.40.16:347][189]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.06.10-18.40.16:375][189]BlueprintEditorCompileResults: Info [0463.20] Compile of TopDownCharacter successful! [in 97 ms]
+[2015.06.10-18.40.18:007][283]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-18.40.18:007][283]PIE: New page: PIE session: TopDownExampleMap (Jun 10, 2015, 10:40:18 AM)
+[2015.06.10-18.40.18:033][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025413s)
+[2015.06.10-18.40.18:038][283]LogPlayLevel: PIE: World Init took: (0.005286s)
+[2015.06.10-18.40.18:039][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.030985s)
+[2015.06.10-18.40.18:076][283]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.10-18.40.18:079][283]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.10-18.40.18:089][283]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.10-18.40.18:089][283]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.10-14.40.18
+[2015.06.10-18.40.18:091][283]LogWorld: Bringing up level for play took: 0.011377
+[2015.06.10-18.40.18:093][283]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.063
+[2015.06.10-18.40.18:093][283]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_InputAxisEvent', from offset 268
+[2015.06.10-18.40.18:093][283]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:InpAxisEvt_ShootUp_K2Node_InputAxisEvent_16
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:ExecuteUbergraph_TopDownCharacter
+
+[2015.06.10-18.40.35:995][283]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-18.40.36:030][284]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BB2C73A60
+[2015.06.10-18.40.37:324][360]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-18.40.37:324][360]PIE: New page: PIE session: TopDownExampleMap (Jun 10, 2015, 10:40:37 AM)
+[2015.06.10-18.40.37:349][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024462s)
+[2015.06.10-18.40.37:353][360]LogPlayLevel: PIE: World Init took: (0.004353s)
+[2015.06.10-18.40.37:353][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.029087s)
+[2015.06.10-18.40.37:389][360]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.10-18.40.37:391][360]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.10-18.40.37:402][360]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.10-18.40.37:402][360]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.10-14.40.37
+[2015.06.10-18.40.37:403][360]LogWorld: Bringing up level for play took: 0.011422
+[2015.06.10-18.40.37:405][360]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.75
+[2015.06.10-18.40.37:405][360]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_InputAxisEvent', from offset 268
+[2015.06.10-18.40.37:405][360]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:InpAxisEvt_ShootUp_K2Node_InputAxisEvent_16
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:ExecuteUbergraph_TopDownCharacter
+
+[2015.06.10-18.40.55:261][361]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BB2C72160
+[2015.06.10-18.40.57:592][497]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Config/DefaultGame.ini"'
+[2015.06.10-18.40.57:607][498]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.40.58:605][558]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Config/DefaultGame.ini"'
+[2015.06.10-18.40.58:622][559]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.40.59:605][618]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Config/DefaultGame.ini"'
+[2015.06.10-18.40.59:622][619]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.40.59:747][625]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Config/DefaultInput.ini"'
+[2015.06.10-18.40.59:761][626]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.41.00:761][686]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Config/DefaultInput.ini"'
+[2015.06.10-18.41.00:778][687]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.41.01:778][747]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Config/DefaultInput.ini"'
+[2015.06.10-18.41.01:794][748]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.41.02:794][808]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Config/DefaultInput.ini"'
+[2015.06.10-18.41.02:811][809]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.41.03:796][868]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Config/DefaultInput.ini"'
+[2015.06.10-18.41.03:812][869]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.41.04:814][929]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Config/DefaultInput.ini"'
+[2015.06.10-18.41.04:829][930]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.41.05:828][990]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Config/DefaultInput.ini"'
+[2015.06.10-18.41.05:844][991]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.41.06:828][ 50]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Config/DefaultInput.ini"'
+[2015.06.10-18.41.06:844][ 51]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.41.07:829][110]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Config/DefaultInput.ini"'
+[2015.06.10-18.41.07:845][111]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.41.08:830][170]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Config/DefaultInput.ini"'
+[2015.06.10-18.41.08:845][171]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.41.09:846][231]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Config/DefaultInput.ini"'
+[2015.06.10-18.41.09:862][232]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.41.10:861][292]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Config/DefaultInput.ini"'
+[2015.06.10-18.41.10:877][293]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.41.11:862][352]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Config/DefaultInput.ini"'
+[2015.06.10-18.41.11:878][353]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.41.12:862][412]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Config/DefaultInput.ini"'
+[2015.06.10-18.41.12:878][413]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-18.41.18:694][757]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-18.41.18:694][757]PIE: New page: PIE session: TopDownExampleMap (Jun 10, 2015, 10:41:18 AM)
+[2015.06.10-18.41.18:720][757]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024229s)
+[2015.06.10-18.41.18:725][757]LogPlayLevel: PIE: World Init took: (0.005161s)
+[2015.06.10-18.41.18:725][757]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.029684s)
+[2015.06.10-18.41.18:764][757]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.10-18.41.18:767][757]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.10-18.41.18:777][757]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.10-18.41.18:777][757]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.10-14.41.18
+[2015.06.10-18.41.18:778][757]LogWorld: Bringing up level for play took: 0.011308
+[2015.06.10-18.41.18:780][757]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.626
+[2015.06.10-18.41.18:781][757]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_InputAxisEvent', from offset 268
+[2015.06.10-18.41.18:781][757]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:InpAxisEvt_ShootUp_K2Node_InputAxisEvent_16
+	Function /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter_C:ExecuteUbergraph_TopDownCharacter
+
+[2015.06.10-18.41.21:018][758]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BBDE3F880
+[2015.06.10-18.41.28:163][168]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-18.41.28:164][168]PIE: New page: PIE session: TopDownExampleMap (Jun 10, 2015, 10:41:28 AM)
+[2015.06.10-18.41.28:191][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026457s)
+[2015.06.10-18.41.28:195][168]LogPlayLevel: PIE: World Init took: (0.004729s)
+[2015.06.10-18.41.28:196][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.031488s)
+[2015.06.10-18.41.28:234][168]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.10-18.41.28:237][168]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.10-18.41.28:247][168]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.10-18.41.28:247][168]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.10-14.41.28
+[2015.06.10-18.41.28:249][168]LogWorld: Bringing up level for play took: 0.011459
+[2015.06.10-18.41.28:251][168]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.096
+[2015.06.10-18.41.32:272][392]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.41.43:612][774]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.43:641][775]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.43:685][776]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.43:767][778]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.43:790][779]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.41.43:790][779]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.43:828][780]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.43:978][784]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.44:016][785]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.44:170][789]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.44:207][790]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.44:359][794]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.44:397][795]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.44:444][796]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.44:586][800]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.44:624][801]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.44:787][805]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.44:813][806]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.44:851][807]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.44:889][808]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.44:939][809]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.41.44:968][810]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.41.45:006][811]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.45:044][812]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.45:205][816]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.45:243][817]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.45:402][821]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.45:454][822]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.45:602][826]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.45:851][832]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.41.46:243][841]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.41.46:525][847]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.41.46:738][852]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.41.46:897][856]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.41.47:075][860]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.41.47:195][863]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.41.47:326][866]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.41.47:369][867]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.41.47:462][869]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.41.50:988][950]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.51:173][954]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.51:219][955]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.51:372][958]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.51:412][959]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.51:609][963]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.51:646][964]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.41.52:159][973]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-18.41.52:159][973]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.10-18.41.52:159][973]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.06.10-18.41.52:187][973]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BB2D17920
+[2015.06.10-18.42.42:238][890]BlueprintLog: New page: Compile TopDownCharacter
+[2015.06.10-18.42.42:309][890]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-18.42.42:309][890]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.10-18.42.42:309][890]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.06.10-18.42.42:338][890]BlueprintEditorCompileResults: Info [0609.17] Compile of TopDownCharacter successful! [in 98 ms]
+[2015.06.10-18.42.59:363][905]BlueprintLog: New page: Compile TopDownCharacter
+[2015.06.10-18.42.59:460][905]BlueprintEditorCompileResults: Info [0626.29] Compile of TopDownCharacter successful! [in 96 ms]
+[2015.06.10-18.43.01:538][ 25]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-18.43.01:538][ 25]PIE: New page: PIE session: TopDownExampleMap (Jun 10, 2015, 10:43:01 AM)
+[2015.06.10-18.43.01:564][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025185s)
+[2015.06.10-18.43.01:569][ 25]LogPlayLevel: PIE: World Init took: (0.004730s)
+[2015.06.10-18.43.01:569][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.030212s)
+[2015.06.10-18.43.01:609][ 25]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.10-18.43.01:610][ 25]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.10-18.43.01:621][ 25]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.10-18.43.01:621][ 25]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.10-14.43.01
+[2015.06.10-18.43.01:622][ 25]LogWorld: Bringing up level for play took: 0.011346
+[2015.06.10-18.43.01:624][ 25]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.531
+[2015.06.10-18.43.03:894][159]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.43.03:918][160]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.43.05:308][235]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.05:330][236]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.05:350][237]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.05:371][238]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.05:391][239]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.05:412][240]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.05:432][241]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.05:452][242]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.05:473][243]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.05:494][244]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.05:515][245]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.05:536][246]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.05:565][247]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.05:578][248]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.05:601][249]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.05:620][250]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:151][399]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:177][400]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:204][401]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:231][402]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:258][403]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:285][404]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:312][405]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:342][406]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:368][407]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:395][408]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:422][409]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:449][410]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:477][411]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:504][412]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:531][413]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:559][414]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:586][415]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:614][416]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:641][417]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:668][418]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:696][419]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.09:723][420]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.12:385][510]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.12:416][511]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.12:447][512]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.12:478][513]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.12:509][514]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.12:540][515]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.12:571][516]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.12:610][517]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.12:636][518]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.12:675][519]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.12:701][520]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.12:731][521]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.12:761][522]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.12:793][523]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.12:825][524]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.12:856][525]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.12:897][526]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.12:920][527]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.12:960][528]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.12:983][529]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.13:016][530]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.13:047][531]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.13:086][532]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.13:110][533]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.13:145][534]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.13:174][535]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.16:416][630]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.16:452][631]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.16:493][632]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.16:534][633]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.16:565][634]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.16:607][635]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.16:637][636]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.16:673][637]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.16:709][638]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.16:745][639]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.16:780][640]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.16:816][641]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.16:852][642]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.16:888][643]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.16:925][644]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.16:961][645]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.16:997][646]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.17:034][647]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.17:070][648]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.17:107][649]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.17:143][650]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.17:178][651]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.17:804][668]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.17:848][669]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.17:876][670]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.17:913][671]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.17:950][672]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.17:986][673]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.18:031][674]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.18:060][675]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.18:105][676]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.18:134][677]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.18:171][678]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.18:217][679]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.18:283][681]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.18:320][682]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.18:358][683]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.18:395][684]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.18:433][685]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.43.24:566][833]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-18.43.24:592][833]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BD4B61620
+[2015.06.10-18.45.03:151][555]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-18.45.03:151][555]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.10-18.45.03:151][555]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.06.10-18.45.05:750][555]LogSavePackage: Save=2500.317871ms
+[2015.06.10-18.45.05:750][555]LogSavePackage: Moving '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/TopDownExampleMap_Auto1D2CBFBC14F239A979617C19DBC02264A.tmp' to '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap'
+[2015.06.10-18.45.05:790][555]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 2.639
+[2015.06.10-18.45.05:790][555]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.639
+[2015.06.10-18.45.05:823][555]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownCharacter] ([1] browsable assets)...
+[2015.06.10-18.45.05:844][555]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter]
+[2015.06.10-18.45.05:844][555]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownCharacter]
+[2015.06.10-18.45.06:242][555]LogSavePackage: Save=344.286346ms
+[2015.06.10-18.45.06:243][555]LogSavePackage: Moving '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/TopDownCharacter_Auto1162B5961420BC2A50249409C3A6E401D.tmp' to '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownCharacter_Auto1.uasset'
+[2015.06.10-18.45.06:249][555]LogFileHelpers: Auto-saving content packages took 0.459
+[2015.06.10-18.46.27:913][372]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-18.52.44:135][428]BlueprintLog: New page: Compile TopDownCharacter
+[2015.06.10-18.52.44:243][428]BlueprintEditorCompileResults: Info [1211.07] Compile of TopDownCharacter successful! [in 108 ms]
+[2015.06.10-18.52.49:994][753]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-18.52.49:995][753]PIE: New page: PIE session: TopDownExampleMap (Jun 10, 2015, 10:52:49 AM)
+[2015.06.10-18.52.50:021][753]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026079s)
+[2015.06.10-18.52.50:026][753]LogPlayLevel: PIE: World Init took: (0.003749s)
+[2015.06.10-18.52.50:026][753]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.030636s)
+[2015.06.10-18.52.50:064][753]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.10-18.52.50:066][753]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.10-18.52.50:076][753]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.10-18.52.50:076][753]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.10-14.52.50
+[2015.06.10-18.52.50:078][753]LogWorld: Bringing up level for play took: 0.011196
+[2015.06.10-18.52.50:080][753]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.075
+[2015.06.10-18.52.59:716][326]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-18.52.59:747][326]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BD4DCAC00
+[2015.06.10-18.54.20:007][115]BlueprintLog: New page: Compile TopDownCharacter
+[2015.06.10-18.54.20:091][115]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-18.54.20:092][115]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.10-18.54.20:092][115]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.06.10-18.54.20:120][115]BlueprintEditorCompileResults: Info [1306.95] Compile of TopDownCharacter successful! [in 112 ms]
+[2015.06.10-18.54.30:625][734]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-18.54.30:626][734]PIE: New page: PIE session: TopDownExampleMap (Jun 10, 2015, 10:54:30 AM)
+[2015.06.10-18.54.30:658][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032051s)
+[2015.06.10-18.54.30:664][734]LogPlayLevel: PIE: World Init took: (0.005714s)
+[2015.06.10-18.54.30:664][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.038052s)
+[2015.06.10-18.54.30:707][734]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.10-18.54.30:709][734]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.10-18.54.30:719][734]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.10-18.54.30:719][734]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.10-14.54.30
+[2015.06.10-18.54.30:721][734]LogWorld: Bringing up level for play took: 0.011374
+[2015.06.10-18.54.30:723][734]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.568
+[2015.06.10-18.54.36:272][ 64]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.36:289][ 65]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.36:306][ 66]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.36:323][ 67]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.36:339][ 68]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.36:356][ 69]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.36:373][ 70]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.36:389][ 71]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.36:422][ 73]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.36:439][ 74]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.36:456][ 75]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.36:473][ 76]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.36:489][ 77]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.36:507][ 78]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.36:523][ 79]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.36:539][ 80]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.36:556][ 81]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.36:573][ 82]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.36:606][ 84]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.45:710][630]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.45:723][631]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.45:740][632]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.45:757][633]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.45:773][634]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.45:794][635]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.45:807][636]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.45:823][637]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.45:839][638]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.45:856][639]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.45:872][640]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.45:894][641]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.45:906][642]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.54.47:574][742]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.55.20:127][398]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.55.30:627][791]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-18.55.30:627][791]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.10-18.55.30:627][791]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.06.10-18.55.33:028][874]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BD2F502C0
+[2015.06.10-18.56.07:899][881]Cmd: TRANSACTION UNDO
+[2015.06.10-18.56.07:899][881]LogEditorTransaction: Undo Delete current selection
+[2015.06.10-18.56.21:698][536]LogSavePackage: Save=2043.758179ms
+[2015.06.10-18.56.21:701][536]LogSavePackage: Moving '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/TopDownExampleMap_Auto20CE772C1405F1FED6F2E339656200ACE.tmp' to '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto2.umap'
+[2015.06.10-18.56.21:723][536]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 2.175
+[2015.06.10-18.56.21:723][536]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.175
+[2015.06.10-18.56.21:769][536]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownCharacter] ([1] browsable assets)...
+[2015.06.10-18.56.21:810][536]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter]
+[2015.06.10-18.56.21:810][536]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownCharacter]
+[2015.06.10-18.56.22:210][536]LogSavePackage: Save=378.022003ms
+[2015.06.10-18.56.22:211][536]LogSavePackage: Moving '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/TopDownCharacter_Auto2F73162E346A402F4265735A98F87424C.tmp' to '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownCharacter_Auto2.uasset'
+[2015.06.10-18.56.22:217][536]LogFileHelpers: Auto-saving content packages took 0.494
+[2015.06.10-18.57.52:614][939]BlueprintLog: New page: Compile TopDownCharacter
+[2015.06.10-18.57.52:700][939]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-18.57.52:729][939]BlueprintEditorCompileResults: Info [1519.56] Compile of TopDownCharacter successful! [in 114 ms]
+[2015.06.10-18.57.54:861][ 60]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-18.57.54:862][ 60]PIE: New page: PIE session: TopDownExampleMap (Jun 10, 2015, 10:57:54 AM)
+[2015.06.10-18.57.54:892][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029548s)
+[2015.06.10-18.57.54:894][ 60]LogPlayLevel: PIE: World Init took: (0.002080s)
+[2015.06.10-18.57.54:895][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.032553s)
+[2015.06.10-18.57.54:932][ 60]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.10-18.57.54:933][ 60]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.10-18.57.54:943][ 60]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.10-18.57.54:943][ 60]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.10-14.57.54
+[2015.06.10-18.57.54:945][ 60]LogWorld: Bringing up level for play took: 0.011278
+[2015.06.10-18.57.54:947][ 60]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.792
+[2015.06.10-18.57.59:541][334]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.57.59:558][335]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.57.59:591][337]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.57.59:607][338]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.57.59:624][339]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-18.58.03:076][541]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.03:093][542]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.03:112][543]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.03:131][544]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.03:151][545]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.03:169][546]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.03:188][547]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.03:208][548]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.03:226][549]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.03:246][550]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.03:265][551]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.03:284][552]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.04:229][604]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.04:247][605]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.04:266][606]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.04:286][607]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.04:313][608]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.04:324][609]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.04:343][610]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.04:362][611]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.04:389][612]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.04:400][613]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.04:419][614]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.04:440][615]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.04:467][616]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.04:478][617]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.04:497][618]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.04:517][619]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.04:536][620]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.04:556][621]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.04:576][622]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.04:596][623]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.04:614][624]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.06:303][710]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.06:324][711]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.06:345][712]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.06:366][713]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.06:387][714]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.06:408][715]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.06:431][716]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.06:452][717]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.06:474][718]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.06:496][719]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.06:517][720]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.09:990][882]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.10:013][883]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.16:968][191]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-18.58.16:988][191]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BDC868E00
+[2015.06.10-18.58.18:323][269]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.06.10-18.58.18:324][269]PIE: New page: PIE session: TopDownExampleMap (Jun 10, 2015, 10:58:18 AM)
+[2015.06.10-18.58.18:342][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018088s)
+[2015.06.10-18.58.18:346][269]LogPlayLevel: PIE: World Init took: (0.003545s)
+[2015.06.10-18.58.18:347][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.022557s)
+[2015.06.10-18.58.18:386][269]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.10-18.58.18:388][269]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.10-18.58.18:398][269]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.10-18.58.18:398][269]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.10-14.58.18
+[2015.06.10-18.58.18:400][269]LogWorld: Bringing up level for play took: 0.011106
+[2015.06.10-18.58.18:402][269]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.247
+[2015.06.10-18.58.22:344][505]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.22:361][506]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.22:379][507]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.22:395][508]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.22:412][509]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.22:430][510]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.22:445][511]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.22:461][512]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.26:445][751]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.29:883][957]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.29:896][958]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.29:912][959]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.29:929][960]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.29:945][961]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.29:961][962]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.29:979][963]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.29:995][964]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.30:014][965]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.30:028][966]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.30:045][967]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.30:062][968]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-18.58.34:887][254]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BDC86B420
+[2015.06.10-19.00.29:278][ 97]LogRenderer:Warning: Reallocating scene render targets to support 1016x560 (Frame:12814).
+[2015.06.10-19.01.49:922][498]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-19.01.49:923][498]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.10-19.01.49:923][498]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.06.10-19.02.02:826][243]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2015.06.10-19.07.01:089][  3]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2015.06.10-19.07.01:110][  3]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BB2C711C0
+[2015.06.10-19.07.02:899][  3]LogSavePackage: Save=1711.694336ms
+[2015.06.10-19.07.02:899][  3]LogSavePackage: Moving '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/TopDownExampleMap_Auto36AA546374AFE0A677BCCAEB33045E04C.tmp' to '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto3.umap'
+[2015.06.10-19.07.02:909][  3]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 1.819
+[2015.06.10-19.07.02:909][  3]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.819
+[2015.06.10-19.07.02:941][  3]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownCharacter] ([1] browsable assets)...
+[2015.06.10-19.07.02:970][  3]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter]
+[2015.06.10-19.07.02:970][  3]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownCharacter]
+[2015.06.10-19.07.03:346][  3]LogSavePackage: Save=359.019196ms
+[2015.06.10-19.07.03:347][  3]LogSavePackage: Moving '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/TopDownCharacter_Auto3A6B8C58B4DD9049F51D80EAD79CAA02C.tmp' to '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownCharacter_Auto3.uasset'
+[2015.06.10-19.07.03:385][  3]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/Projectile] ([1] browsable assets)...
+[2015.06.10-19.07.03:434][  3]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/Projectile.Projectile]
+[2015.06.10-19.07.03:434][  3]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Projectile]
+[2015.06.10-19.07.03:927][  3]LogSavePackage: Save=465.040466ms
+[2015.06.10-19.07.03:928][  3]LogSavePackage: Moving '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Projectile_Auto318B8B9E84BF948AA533071A321160AA5.tmp' to '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Blueprints/Projectile_Auto3.uasset'
+[2015.06.10-19.07.03:935][  3]LogFileHelpers: Auto-saving content packages took 1.026
+[2015.06.10-19.17.04:200][841]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-19.17.04:200][841]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.10-19.17.04:227][841]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.027
+[2015.06.10-19.17.04:268][841]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/Projectile] ([1] browsable assets)...
+[2015.06.10-19.17.04:305][841]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/Projectile.Projectile]
+[2015.06.10-19.17.04:305][841]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Projectile]
+[2015.06.10-19.17.04:907][841]LogSavePackage: Save=584.847107ms
+[2015.06.10-19.17.04:909][841]LogSavePackage: Moving '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Projectile_Auto40E29573743A3656C7A54E1AE3E880D6C.tmp' to '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Blueprints/Projectile_Auto4.uasset'
+[2015.06.10-19.17.04:976][841]LogFileHelpers: Auto-saving content packages took 0.748
+[2015.06.10-19.24.48:761][662]BlueprintLog: New page: Compile Projectile
+[2015.06.10-19.24.48:832][662]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.10-19.24.48:860][662]BlueprintEditorCompileResults: Info [3135.69] Compile of Projectile successful! [in 98 ms]
+[2015.06.10-19.25.00:139][272]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.10-19.25.00:144][272]LogPlayLevel: [PIE] Compiling TopDownCharacter before PIE...
+[2015.06.10-19.25.00:233][272]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.10-19.25.00:233][272]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-19.25.00:250][272]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BFDF5ACA0
+[2015.06.10-19.25.00:253][272]LogPlayLevel: PIE:  Blueprint regeneration took 114 ms (1 blueprints)
+[2015.06.10-19.25.00:254][272]PIE: New page: PIE session: TopDownExampleMap (Jun 10, 2015, 11:25:00 AM)
+[2015.06.10-19.25.00:282][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027942s)
+[2015.06.10-19.25.00:286][272]LogPlayLevel: PIE: World Init took: (0.003728s)
+[2015.06.10-19.25.00:287][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.032440s)
+[2015.06.10-19.25.00:328][272]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.10-19.25.00:330][272]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.10-19.25.00:340][272]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.10-19.25.00:340][272]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.10-15.25.00
+[2015.06.10-19.25.00:342][272]LogWorld: Bringing up level for play took: 0.011165
+[2015.06.10-19.25.00:344][272]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.188
+[2015.06.10-19.25.13:306][ 48]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.13:655][ 69]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.13:672][ 70]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.13:690][ 71]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.13:705][ 72]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.13:723][ 73]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.13:739][ 74]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.13:755][ 75]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.13:776][ 76]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.13:789][ 77]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.13:805][ 78]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.18:173][340]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.18:190][341]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.18:206][342]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.18:239][344]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.18:273][346]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.18:306][348]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.18:339][350]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.18:372][352]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.21:907][564]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.21:923][565]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.21:940][566]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.21:956][567]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.25:506][779]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.25:522][780]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.25:539][781]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.25:561][782]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.25:573][783]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.25:589][784]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.25:606][785]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.25:623][786]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.25:646][787]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.25:657][788]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.25:674][789]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.25:690][790]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.25:708][791]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:416][893]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:428][894]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:446][895]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:462][896]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:484][897]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:496][898]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:513][899]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:529][900]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:546][901]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:563][902]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:580][903]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:596][904]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:613][905]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:636][906]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:647][907]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:664][908]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:681][909]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:698][910]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:714][911]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:732][912]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:748][913]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:766][914]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:783][915]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:800][916]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:817][917]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:834][918]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:851][919]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:873][920]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:885][921]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:907][922]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:924][923]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.27:936][924]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.29:761][ 33]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.29:777][ 34]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.29:800][ 35]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.31:649][146]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.31:666][147]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.31:683][148]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.31:699][149]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.31:716][150]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.31:733][151]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.31:750][152]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.31:767][153]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.31:785][154]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.31:802][155]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.31:918][162]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.31:935][163]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.31:951][164]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.31:968][165]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.31:985][166]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.57:818][542]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.57:841][543]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.57:863][544]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.57:888][545]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.57:909][546]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.57:932][547]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.25.57:955][548]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.00:770][676]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.00:793][677]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.00:816][678]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.00:837][679]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.00:860][680]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.00:883][681]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.00:908][682]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.00:928][683]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.00:951][684]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.00:974][685]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.00:997][686]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.01:019][687]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.01:501][709]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.01:525][710]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.01:548][711]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.01:571][712]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.01:594][713]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.01:617][714]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.01:640][715]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.01:665][716]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.01:686][717]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.01:717][718]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.01:731][719]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.01:764][720]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.01:777][721]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.01:799][722]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.02:017][732]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.02:040][733]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.02:064][734]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.02:088][735]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.03:768][812]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.03:791][813]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.04:279][835]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.04:302][836]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.04:326][837]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.04:348][838]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.04:379][839]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.04:395][840]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.04:429][841]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.04:441][842]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.04:463][843]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.26.04:487][844]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.31.48:417][429]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BFEA9BBA0
+[2015.06.10-19.33.55:409][914]LogSavePackage: Save=1766.622070ms
+[2015.06.10-19.33.55:409][914]LogSavePackage: Moving '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/TopDownExampleMap_Auto5005B83734B7E1AE460DE54923264BE92.tmp' to '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto5.umap'
+[2015.06.10-19.33.55:430][914]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 1.906
+[2015.06.10-19.33.55:430][914]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.906
+[2015.06.10-19.33.55:470][914]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownCharacter] ([1] browsable assets)...
+[2015.06.10-19.33.55:500][914]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter]
+[2015.06.10-19.33.55:500][914]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownCharacter]
+[2015.06.10-19.33.56:001][914]LogSavePackage: Save=425.579376ms
+[2015.06.10-19.33.56:002][914]LogSavePackage: Moving '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/TopDownCharacter_Auto56493F7B548AB8FF8322FAEAD616B3B39.tmp' to '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownCharacter_Auto5.uasset'
+[2015.06.10-19.33.56:057][914]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/Projectile] ([1] browsable assets)...
+[2015.06.10-19.33.56:103][914]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/Projectile.Projectile]
+[2015.06.10-19.33.56:103][914]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Projectile]
+[2015.06.10-19.33.56:614][914]LogSavePackage: Save=491.364685ms
+[2015.06.10-19.33.56:615][914]LogSavePackage: Moving '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Projectile_Auto5D240D8A6428EFD5472E94DA33B261A38.tmp' to '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Blueprints/Projectile_Auto5.uasset'
+[2015.06.10-19.33.56:623][914]LogFileHelpers: Auto-saving content packages took 1.192
+[2015.06.10-19.45.15:859][549]BlueprintLog: New page: Compile Projectile
+[2015.06.10-19.45.15:967][549]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-19.45.15:967][549]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.10-19.45.15:967][549]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.06.10-19.45.16:027][549]BlueprintEditorCompileResults: Info [4362.86] Compile of Projectile successful! [in 167 ms]
+[2015.06.10-19.45.16:208][551]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.10-19.45.16:208][551]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-19.45.16:230][551]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.022
+[2015.06.10-19.45.16:266][551]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownCharacter] ([1] browsable assets)...
+[2015.06.10-19.45.16:288][551]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter]
+[2015.06.10-19.45.16:288][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownCharacter]
+[2015.06.10-19.45.16:709][551]LogSavePackage: Save=402.899078ms
+[2015.06.10-19.45.16:711][551]LogSavePackage: Moving '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/TopDownCharacter_Auto6D1B1DEE64BF79C84B4D2DD8745150BF2.tmp' to '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownCharacter_Auto6.uasset'
+[2015.06.10-19.45.16:777][551]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/Projectile] ([1] browsable assets)...
+[2015.06.10-19.45.16:808][551]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/Projectile.Projectile]
+[2015.06.10-19.45.16:808][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Projectile]
+[2015.06.10-19.45.17:331][551]LogSavePackage: Save=505.447205ms
+[2015.06.10-19.45.17:332][551]LogSavePackage: Moving '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Projectile_Auto63035EFA345165F6A831772A277F08248.tmp' to '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Blueprints/Projectile_Auto6.uasset'
+[2015.06.10-19.45.17:339][551]LogFileHelpers: Auto-saving content packages took 1.108
+[2015.06.10-19.45.17:873][581]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Blueprints/Projectile.uasset"'
+[2015.06.10-19.45.17:911][581]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.06.10-19.45.18:063][581]LogSavePackage: Save=55.150288ms
+[2015.06.10-19.45.18:063][581]LogSavePackage: Moving '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/ProjectileFC2FABD84CC635AF5CE564B21725E734.tmp' to '../../../../../../Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Blueprints/Projectile.uasset'
+[2015.06.10-19.45.18:086][582]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Blueprints/Projectile.uasset"'
+[2015.06.10-19.45.18:098][583]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M UNREAL/MyProject2/Content/TopDownBP/Blueprints/Projectile.uasset
+'
+[2015.06.10-19.45.25:703][ 30]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.10-19.45.25:708][ 30]LogPlayLevel: [PIE] Compiling TopDownCharacter before PIE...
+[2015.06.10-19.45.25:795][ 30]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-19.45.25:796][ 30]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.10-19.45.25:813][ 30]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B8BDE2A20
+[2015.06.10-19.45.25:816][ 30]LogPlayLevel: PIE:  Blueprint regeneration took 113 ms (1 blueprints)
+[2015.06.10-19.45.25:816][ 30]PIE: New page: PIE session: TopDownExampleMap (Jun 10, 2015, 11:45:25 AM)
+[2015.06.10-19.45.25:844][ 30]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027118s)
+[2015.06.10-19.45.25:849][ 30]LogPlayLevel: PIE: World Init took: (0.005513s)
+[2015.06.10-19.45.25:850][ 30]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.032902s)
+[2015.06.10-19.45.25:889][ 30]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.10-19.45.25:891][ 30]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.10-19.45.25:901][ 30]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.10-19.45.25:901][ 30]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.10-15.45.25
+[2015.06.10-19.45.25:903][ 30]LogWorld: Bringing up level for play took: 0.011102
+[2015.06.10-19.45.25:905][ 30]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.251
+[2015.06.10-19.45.31:308][351]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.31:925][388]LogCharacterMovement: NPC_C_1 is stuck and failed to move!
+[2015.06.10-19.45.32:810][441]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.32:827][442]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.32:844][443]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.32:865][444]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.32:877][445]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.32:898][446]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.32:910][447]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.32:928][448]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.32:944][449]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.32:961][450]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.32:977][451]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.32:994][452]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.33:011][453]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.33:027][454]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.33:045][455]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.40:719][915]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.40:768][918]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.40:785][919]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.40:819][921]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.40:854][923]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.40:888][925]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.41:275][948]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.41:293][949]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.41:309][950]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.41:345][952]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.41:363][953]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.41:381][954]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.41:398][955]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.41:416][956]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.41:434][957]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.41:451][958]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.41:509][961]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.41:556][964]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.45.59:490][935]LogCharacterMovement: TopDownCharacter_C_0 is stuck and failed to move!
+[2015.06.10-19.46.15:490][659]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BFBE34360
+[2015.06.10-19.46.38:125][965]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.10-19.46.38:126][965]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.10-19.46.38:126][965]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.06.10-19.46.38:144][965]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007BCDBF13A0
+[2015.06.10-19.46.38:180][965]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "C:/Users/merli_000/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/TopDownExampleMap.umap"'
+[2015.06.10-19.46.38:228][965]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutRe
