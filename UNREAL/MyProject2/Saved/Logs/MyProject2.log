@@ -1,4 +1,4 @@
-﻿Log file open, 06/15/15 12:33:10
+﻿Log file open, 06/17/15 13:00:33
 LogInit:Display: Running engine for game: MyProject2
 LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
 LogInit: API Version: 2455222
@@ -9,1164 +9,483 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.7
 LogInit: Command line: 
 LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2015.06.15-16.33.10:188][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
-[2015.06.15-16.33.10:244][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2015.06.15-16.33.10:260][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.06.15-16.33.10:273][  0]LogInit: Object subsystem initialized
-[2015.06.15-16.33.10:276][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2015.06.15-16.33.10:276][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.06.15-16.33.10:276][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2015.06.15-16.33.10:276][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.06.15-16.33.10:276][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2015.06.15-16.33.10:276][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2015.06.15-16.33.10:276][  0]LogInit: Selected Device Profile: [Windows]
-[2015.06.15-16.33.10:276][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.06.15-16.33.10:286][  0]LogInit: Computer: ENRIQUE-VAIO
-[2015.06.15-16.33.10:286][  0]LogInit: User: Carlos
-[2015.06.15-16.33.10:286][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.06.15-16.33.10:286][  0]LogInit: High frequency timer resolution =1.948730 MHz
-[2015.06.15-16.33.10:286][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
-[2015.06.15-16.33.10:287][  0]LogMemory: Platform Memory Stats for Windows
-[2015.06.15-16.33.10:287][  0]LogMemory: Process Physical Memory: 48.74 MB used, 48.74 MB peak
-[2015.06.15-16.33.10:287][  0]LogMemory: Process Virtual Memory: 26.45 MB used, 26.45 MB peak
-[2015.06.15-16.33.10:287][  0]LogMemory: Physical Memory: 3819.96 MB used, 8173.22 MB total
-[2015.06.15-16.33.10:287][  0]LogMemory: Virtual Memory: 278.81 MB used, 8388608.00 MB total
-[2015.06.15-16.33.10:319][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 540M   (Feature Level 11_0)
-[2015.06.15-16.33.10:319][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
-[2015.06.15-16.33.10:319][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.06.15-16.33.10:331][  0]LogRHI: Texture pool is 684 MB (70% of 977 MB)
-[2015.06.15-16.33.10:339][  0]LogD3D11RHI: Async texture creation enabled
-[2015.06.15-16.33.10:404][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
-[2015.06.15-16.33.10:491][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+[2015.06.17-17.00.34:241][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.06.17-17.00.34:317][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.06.17-17.00.34:340][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.06.17-17.00.34:352][  0]LogInit: Object subsystem initialized
+[2015.06.17-17.00.34:354][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.06.17-17.00.34:355][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.17-17.00.34:355][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.06.17-17.00.34:355][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.17-17.00.34:355][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.06.17-17.00.34:355][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.06.17-17.00.34:355][  0]LogInit: Selected Device Profile: [Windows]
+[2015.06.17-17.00.34:355][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.06.17-17.00.34:449][  0]LogInit: Computer: ENRIQUE-VAIO
+[2015.06.17-17.00.34:449][  0]LogInit: User: Carlos
+[2015.06.17-17.00.34:449][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.06.17-17.00.34:449][  0]LogInit: High frequency timer resolution =1.948730 MHz
+[2015.06.17-17.00.34:450][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=8192.0GB
+[2015.06.17-17.00.34:451][  0]LogMemory: Platform Memory Stats for Windows
+[2015.06.17-17.00.34:451][  0]LogMemory: Process Physical Memory: 48.35 MB used, 48.35 MB peak
+[2015.06.17-17.00.34:451][  0]LogMemory: Process Virtual Memory: 26.42 MB used, 26.42 MB peak
+[2015.06.17-17.00.34:451][  0]LogMemory: Physical Memory: 3992.71 MB used, 8173.22 MB total
+[2015.06.17-17.00.34:451][  0]LogMemory: Virtual Memory: 278.81 MB used, 8388608.00 MB total
+[2015.06.17-17.00.34:500][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 540M   (Feature Level 11_0)
+[2015.06.17-17.00.34:500][  0]LogD3D11RHI: Adapter has 977MB of dedicated video memory, 0MB of dedicated system memory, and 3071MB of shared system memory, 1 output[s]
+[2015.06.17-17.00.34:500][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.06.17-17.00.34:512][  0]LogRHI: Texture pool is 684 MB (70% of 977 MB)
+[2015.06.17-17.00.34:522][  0]LogD3D11RHI: Async texture creation enabled
+[2015.06.17-17.00.34:582][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.06.17-17.00.34:657][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
-[2015.06.15-16.33.10:491][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+[2015.06.17-17.00.34:658][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
-[2015.06.15-16.33.10:598][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.06.15-16.33.13:920][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.06.15-16.33.14:615][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.06.15-16.33.14:700][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.06.15-16.33.14:748][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/Carlos/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.06.15-16.33.14:749][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Carlos/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
-[2015.06.15-16.33.14:749][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.06.15-16.33.14:749][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.06.15-16.33.14:922][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.06.15-16.33.14:933][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Carlos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.06.15-16.33.15:351][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.06.15-16.33.15:351][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.06.15-16.33.15:815][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.06.15-16.33.15:913][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2015.06.15-16.33.16:891][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.06.15-16.33.17:146][  0]SourceControl: Info Source control is disabled
-[2015.06.15-16.33.17:146][  0]SourceControl: Info Source control is disabled
-[2015.06.15-16.33.17:146][  0]SourceControl: Info Source control is disabled
-[2015.06.15-16.33.17:158][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.06.15-16.33.17:158][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.06.15-16.33.17:398][  0]LogObj: 24232 objects as part of root set at end of initial load.
-[2015.06.15-16.33.17:398][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
-[2015.06.15-16.33.17:503][  0]LogEngine: Initializing Engine...
-[2015.06.15-16.33.19:722][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2015.06.15-16.33.19:732][  0]LogInit: FAudioDevice initialized.
-[2015.06.15-16.33.19:780][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.06.15-16.33.19:807][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Carlos/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2015.06.15-16.33.19:814][  0]LogInit: Texture streaming: Enabled
-[2015.06.15-16.33.19:941][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.06.15-16.33.19:941][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2015.06.15-16.33.19:941][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2015.06.15-16.33.19:941][  0]LogAnalytics: SetUserId 6aaf54be499587619b19c09b2da3310a|656f284bf5d54f8f9452234d119bf9d4|01f9fe1b-f0f7-4463-ad58-b4af02ddd4b9
-[2015.06.15-16.33.19:941][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2015.06.15-16.33.19:983][  0]LogInit: Transaction tracking system initialized
-[2015.06.15-16.33.20:223][  0]BlueprintLog: New page: Editor Load
-[2015.06.15-16.33.20:265][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
-[2015.06.15-16.33.20:265][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2015.06.15-16.33.20:993][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.06.15-16.33.21:487][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.06.15-16.33.21:822][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
-[2015.06.15-16.33.21:823][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
-[2015.06.15-16.33.21:829][  0]LogConsoleResponse:Display: 
-[2015.06.15-16.33.22:005][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.06.15-16.33.22:190][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2015.06.15-16.33.22:190][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2015.06.15-16.33.22:190][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.06.15-16.33.22:191][  0]LightingResults: New page: Lighting Build
-[2015.06.15-16.33.22:206][  0]MapCheck: New page: Map Check
-[2015.06.15-16.33.22:206][  0]LightingResults: New page: Lighting Build
-[2015.06.15-16.33.22:220][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012218680
-[2015.06.15-16.33.24:876][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.06.15-16.33.24:876][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2015.06.15-16.33.24:877][  0]Cmd: MAP CHECKDEP
-[2015.06.15-16.33.24:877][  0]MapCheck: New page: TopDownExampleMap - Jun 15, 2015, 8:33:24 AM
-[2015.06.15-16.33.24:988][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 110.034ms to complete.
-[2015.06.15-16.33.24:988][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 2.798
-[2015.06.15-16.33.25:142][  0]LogCollectionManager: Loaded 0 collections in 0.002174 seconds
-[2015.06.15-16.33.25:161][  0]LogContentBrowser: Native class hierarchy populated in 0.0191 seconds. Added 1696 classes and 261 folders.
-[2015.06.15-16.33.25:202][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0024 seconds. Added 1 classes and 2 folders.
-[2015.06.15-16.33.25:302][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2015.06.15-16.33.25:303][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
-[2015.06.15-16.33.25:307][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2015.06.15-16.33.25:332][  0]LogLoad: Full Startup: 17.22 seconds (BP compile: 1.10 seconds)
-[2015.06.15-16.33.25:375][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDownBP/Blueprints'
-[2015.06.15-16.33.25:529][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
-[2015.06.15-16.33.25:618][  0]LogRenderer:Warning: Reallocating scene render targets to support 1240x656 (Frame:3).
-[2015.06.15-16.33.26:367][  7]LogAssetRegistry: Asset discovery search completed in 6.1115 seconds
-[2015.06.15-16.33.30:873][162]LogLinker:Warning: Can't resolve asset name
-[2015.06.15-16.33.30:879][162]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.30:945][163]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.30:965][164]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:004][165]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:013][166]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:022][167]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:033][168]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:041][169]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:056][170]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:071][171]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:081][172]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:091][173]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:104][174]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:121][175]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:139][176]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:150][177]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:162][178]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:174][179]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:189][180]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:199][181]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:214][182]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:226][183]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:235][184]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:249][185]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:259][186]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:275][187]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:285][188]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:296][189]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:309][190]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:320][191]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:330][192]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:342][193]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:356][194]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:366][195]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:375][196]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:391][197]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:403][198]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:413][199]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:429][200]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:441][201]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:455][202]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:465][203]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:481][204]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:490][205]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:501][206]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:516][207]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:526][208]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:539][209]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:552][210]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:562][211]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:575][212]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:587][213]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:596][214]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:611][215]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:622][216]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:631][217]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:645][218]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:657][219]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:668][220]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:681][221]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:691][222]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:703][223]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:718][224]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:728][225]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:742][226]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:753][227]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:763][228]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:775][229]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:788][230]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:805][231]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:820][232]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:829][233]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:842][234]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:861][235]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:872][236]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:882][237]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:895][238]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:905][239]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:917][240]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:929][241]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:945][242]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:960][243]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:971][244]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:980][245]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.31:991][246]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:006][247]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:015][248]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:031][249]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:042][250]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:056][251]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:066][252]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:081][253]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:091][254]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:105][255]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:120][256]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:130][257]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:141][258]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:156][259]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:166][260]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:178][261]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:194][262]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:205][263]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:216][264]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:227][265]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:241][266]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:251][267]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:262][268]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:273][269]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:287][270]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:298][271]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:309][272]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:323][273]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:334][274]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:347][275]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:359][276]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:370][277]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:383][278]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:394][279]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:405][280]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:415][281]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:427][282]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:445][283]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:460][284]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:474][285]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.32:484][286]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.33:082][323]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.33:099][324]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.33:115][325]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.33:131][326]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.33:144][327]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:464][417]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:477][418]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:487][419]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:502][420]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:514][421]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:524][422]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:536][423]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:549][424]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:560][425]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:570][426]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:586][427]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:597][428]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:608][429]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:620][430]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:631][431]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:646][432]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:656][433]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:666][434]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:682][435]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:695][436]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:706][437]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:718][438]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:732][439]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:746][440]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:760][441]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:773][442]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:785][443]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:798][444]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:812][445]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:822][446]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:832][447]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:849][448]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:865][449]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:880][450]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:889][451]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:899][452]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:914][453]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:932][454]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:946][455]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:957][456]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:967][457]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:982][458]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.34:996][459]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:009][460]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:021][461]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:031][462]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:045][463]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:057][464]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:070][465]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:082][466]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:098][467]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:110][468]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:122][469]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:133][470]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:148][471]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:160][472]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:169][473]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:185][474]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:195][475]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:209][476]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:222][477]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:234][478]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:249][479]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:263][480]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:277][481]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:288][482]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:300][483]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:315][484]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:328][485]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:350][486]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:360][487]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:369][488]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:378][489]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:389][490]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:405][491]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:417][492]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:429][493]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:440][494]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:451][495]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:465][496]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:475][497]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:486][498]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:500][499]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:515][500]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:525][501]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:787][521]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:800][522]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:813][523]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:826][524]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:839][525]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:853][526]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:866][527]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:880][528]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:891][529]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:904][530]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:919][531]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:930][532]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:941][533]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:953][534]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:964][535]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:978][536]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.35:991][537]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:005][538]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:019][539]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:030][540]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:045][541]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:054][542]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:064][543]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:078][544]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:092][545]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:105][546]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:116][547]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:130][548]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:141][549]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:155][550]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:165][551]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:180][552]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:193][553]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:207][554]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:220][555]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:232][556]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:243][557]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:257][558]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:268][559]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:277][560]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:292][561]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:309][562]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:321][563]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:333][564]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:346][565]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:357][566]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:370][567]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:381][568]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:392][569]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:407][570]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:419][571]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:428][572]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:439][573]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:454][574]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.36:464][575]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:149][631]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:160][632]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:170][633]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:185][634]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:195][635]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:210][636]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:221][637]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:231][638]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:245][639]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:257][640]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:274][641]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:284][642]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:298][643]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:309][644]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:324][645]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:340][646]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:350][647]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:363][648]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:374][649]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:385][650]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:399][651]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:413][652]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:427][653]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:439][654]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:451][655]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:462][656]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:478][657]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:489][658]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:502][659]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:516][660]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:528][661]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:595][662]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:603][663]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:611][664]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:621][665]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:642][666]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:651][667]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:661][668]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:669][669]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:681][670]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:692][671]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:703][672]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:717][673]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:729][674]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:740][675]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:753][676]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:764][677]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:775][678]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:791][679]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:801][680]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:816][681]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:827][682]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:839][683]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:852][684]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:863][685]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:874][686]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:887][687]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:901][688]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:914][689]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:926][690]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:940][691]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:956][692]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:967][693]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:978][694]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.37:992][695]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:007][696]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:021][697]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:035][698]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:050][699]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:061][700]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:076][701]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:091][702]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:101][703]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:112][704]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:127][705]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:137][706]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:148][707]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:162][708]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:173][709]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:187][710]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:198][711]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:209][712]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:224][713]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:238][714]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:250][715]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:263][716]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:273][717]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:287][718]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:298][719]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:312][720]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:325][721]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:338][722]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:353][723]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:364][724]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:375][725]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:389][726]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:400][727]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:414][728]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:426][729]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:437][730]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:450][731]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:463][732]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:473][733]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:487][734]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:499][735]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:513][736]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:523][737]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:535][738]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:548][739]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:561][740]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:572][741]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:586][742]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:597][743]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:607][744]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:622][745]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:633][746]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:648][747]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:658][748]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:669][749]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:684][750]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:696][751]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:706][752]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:722][753]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:737][754]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:748][755]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:758][756]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:772][757]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:784][758]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:799][759]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:809][760]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:820][761]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:835][762]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:849][763]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:861][764]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:874][765]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:886][766]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:900][767]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:911][768]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:924][769]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:937][770]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:951][771]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:962][772]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:975][773]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.38:990][774]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:004][775]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:019][776]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:030][777]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:044][778]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:054][779]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:068][780]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:080][781]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:093][782]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:104][783]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:118][784]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:136][785]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:152][786]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:167][787]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:178][788]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:191][789]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:206][790]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:216][791]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:231][792]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:242][793]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:256][794]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:271][795]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:282][796]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:294][797]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:307][798]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:318][799]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:333][800]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:343][801]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:354][802]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:365][803]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:379][804]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:390][805]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:404][806]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:416][807]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:433][808]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:444][809]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:458][810]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:472][811]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:483][812]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:498][813]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:508][814]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:522][815]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:537][816]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:548][817]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:562][818]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:573][819]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:587][820]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:603][821]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:623][822]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:639][823]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:653][824]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:664][825]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:678][826]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:692][827]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:707][828]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:722][829]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:733][830]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:748][831]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:759][832]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:770][833]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:781][834]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:796][835]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:807][836]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:817][837]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:833][838]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:844][839]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:858][840]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:873][841]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.33.39:885][842]LogBlueprintUserMessages: character cast failed
-[2015.06.15-16.34.38:828][  8]LogEditorViewport: Clicking on Actor (LMB): TargetPoint (PlayerSpawn)
-[2015.06.15-16.38.51:813][277]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2015.06.15-16.40.11:503][421]BlueprintLog: New page: Compile TopDownExampleMap
-[2015.06.15-16.40.11:604][421]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
-[2015.06.15-16.40.11:604][421]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.06.15-16.40.11:604][421]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2015.06.15-16.40.11:604][421]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2015.06.15-16.40.11:643][421]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C0B3100
-[2015.06.15-16.40.11:667][421]BlueprintEditorCompileResults: Info [0423.55] Compile of TopDownExampleMap successful! [in 164 ms]
-[2015.06.15-16.40.13:120][537]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.06.15-16.40.13:131][537]LogPlayLevel: [PIE] Compiling TopDownExampleMap before PIE...
-[2015.06.15-16.40.13:245][537]LogPlayLevel: PIE:  Blueprint regeneration took 124 ms (1 blueprints)
-[2015.06.15-16.40.13:245][537]PIE: New page: PIE session: TopDownExampleMap (Jun 15, 2015, 8:40:13 AM)
-[2015.06.15-16.40.13:279][537]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2015.06.15-16.40.13:279][537]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2015.06.15-16.40.13:279][537]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2015.06.15-16.40.13:279][537]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2015.06.15-16.40.13:280][537]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2015.06.15-16.40.13:280][537]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2015.06.15-16.40.13:282][537]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2015.06.15-16.40.13:282][537]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2015.06.15-16.40.13:289][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043682s)
-[2015.06.15-16.40.13:290][537]LogPlayLevel: PIE: World Init took: (0.001031s)
-[2015.06.15-16.40.13:291][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.044958s)
-[2015.06.15-16.40.13:334][537]LogWorld: Game class is 'TopDownGameMode_C'
-[2015.06.15-16.40.13:336][537]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2015.06.15-16.40.13:350][537]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.06.15-16.40.13:350][537]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.06.15-12.40.13
-[2015.06.15-16.40.13:354][537]LogWorld: Bringing up level for play took: 0.017309
-[2015.06.15-16.40.13:357][537]LogScript:Warning: Accessed None 'MainMenuRef'
-	TopDownExampleMap_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap_C_2
-	Function /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C:ExecuteUbergraph_TopDownExampleMap:02E1
-[2015.06.15-16.40.13:357][537]PIE:Error: Error Accessed None 'MainMenuRef' from node Q in blueprint TopDownExampleMap
-[2015.06.15-16.40.13:367][537]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.601
-[2015.06.15-16.40.13:451][537]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:264).
-[2015.06.15-16.40.15:574][563]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000273A1F80
-[2015.06.15-16.40.30:261][541]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.06.15-16.40.30:261][541]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
-[2015.06.15-16.40.30:261][541]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
-[2015.06.15-16.40.30:261][541]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
-[2015.06.15-16.40.32:931][541]LogSavePackage: Save=2382.684570ms
-[2015.06.15-16.40.32:931][541]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/TopDownExampleMap470580514BE5E04ED736FBBBBF04A452.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/TopDownExampleMap.umap'
-[2015.06.15-16.40.32:986][541]LogFileHelpers: Saving map 'TopDownExampleMap' took 2.625
-[2015.06.15-16.40.34:560][616]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDownBP/Maps'
-[2015.06.15-16.40.35:683][686]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.06.15-16.40.35:683][686]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
-[2015.06.15-16.40.35:683][686]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
-[2015.06.15-16.40.35:683][686]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
-[2015.06.15-16.40.35:721][686]Cmd: MAP LOAD FILE="../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.06.15-16.40.35:721][686]LightingResults: New page: Lighting Build
-[2015.06.15-16.40.35:764][686]LoadErrors: New page: Loading map: Menu.umap
-[2015.06.15-16.40.35:811][686]MapCheck: New page: Map Check
-[2015.06.15-16.40.35:811][686]LightingResults: New page: Lighting Build
-[2015.06.15-16.40.35:838][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018A03880
-[2015.06.15-16.40.35:840][686]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C0B2C00
-[2015.06.15-16.40.35:994][686]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.06.15-16.40.35:996][686]LogAIModule: Creating AISystem for world Menu
-[2015.06.15-16.40.36:064][686]Cmd: MAP CHECKDEP
-[2015.06.15-16.40.36:064][686]MapCheck: New page: Menu - Jun 15, 2015, 8:40:36 AM
-[2015.06.15-16.40.36:188][686]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 124.051ms to complete.
-[2015.06.15-16.40.36:190][686]LogFileHelpers: Loading map 'Menu' took 0.480
-[2015.06.15-16.40.37:518][783]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.06.15-16.40.37:518][783]LogPlayLevel: [PIE] Compiling Menu before PIE...
-[2015.06.15-16.40.37:577][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
-[2015.06.15-16.40.37:577][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.06.15-16.40.37:604][783]LogPlayLevel: PIE:  Blueprint regeneration took 86 ms (1 blueprints)
-[2015.06.15-16.40.37:604][783]PIE: New page: PIE session: Menu (Jun 15, 2015, 8:40:37 AM)
-[2015.06.15-16.40.37:610][783]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004955s)
-[2015.06.15-16.40.37:610][783]LogPlayLevel: PIE: World Init took: (0.000619s)
-[2015.06.15-16.40.37:611][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/Menu.Menu to /Game/TopDownBP/Maps/UEDPIE_0_Menu.Menu (0.005773s)
-[2015.06.15-16.40.37:809][783]LogWorld: Game class is 'TopDownGameMode_C'
-[2015.06.15-16.40.37:811][783]LogAIModule: Creating AISystem for world Menu
-[2015.06.15-16.40.37:812][783]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.06.15-12.40.37
-[2015.06.15-16.40.37:813][783]LogWorld: Bringing up level for play took: 0.001243
-[2015.06.15-16.40.37:818][783]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_Menu -0.151
-[2015.06.15-16.40.39:679][827]LogPackageName: SearchForPackageOnDisk took   0.096s to resolve TopDownExampleMap.umap
-[2015.06.15-16.40.39:766][827]LogPackageName: SearchForPackageOnDisk took   0.086s to resolve TopDownExampleMap.umap
-[2015.06.15-16.40.39:766][827]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap
-[2015.06.15-16.40.39:766][827]LogLoad: LoadMap: /Game/TopDownBP/Maps/TopDownExampleMap
-[2015.06.15-16.40.39:798][827]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000193F1DA0
-[2015.06.15-16.40.39:798][827]Cmd: MEM
-[2015.06.15-16.40.39:826][827]LogMemory: Platform Memory Stats for Windows
-[2015.06.15-16.40.39:826][827]LogMemory: Process Physical Memory: 783.62 MB used, 1214.38 MB peak
-[2015.06.15-16.40.39:826][827]LogMemory: Process Virtual Memory: 678.13 MB used, 1131.03 MB peak
-[2015.06.15-16.40.39:826][827]LogMemory: Physical Memory: 4773.49 MB used, 8173.22 MB total
-[2015.06.15-16.40.39:826][827]LogMemory: Virtual Memory: 1214.25 MB used, 8388608.00 MB total
-[2015.06.15-16.40.39:826][827]LogMemory: 
-[2015.06.15-16.40.39:826][827]Allocator Stats for TBB: (not implemented)
-[2015.06.15-16.40.41:225][827]LogWorld: Game class is 'TopDownGameMode_C'
-[2015.06.15-16.40.41:227][827]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2015.06.15-16.40.41:241][827]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.06.15-16.40.41:241][827]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.06.15-12.40.41
-[2015.06.15-16.40.41:243][827]LogWorld: Bringing up level for play took: 0.015761
-[2015.06.15-16.40.41:246][827]LogScript:Warning: Accessed None 'MainMenuRef'
-	TopDownExampleMap_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap_C_0
-	Function /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap_C:ExecuteUbergraph_TopDownExampleMap:02E1
-[2015.06.15-16.40.41:246][827]PIE:Error: Error Accessed None 'MainMenuRef' from node Q in blueprint TopDownExampleMap
-[2015.06.15-16.40.47:028][919]LogPackageName: SearchForPackageOnDisk took   0.085s to resolve Menu.umap
-[2015.06.15-16.40.47:110][919]LogPackageName: SearchForPackageOnDisk took   0.081s to resolve Menu.umap
-[2015.06.15-16.40.47:110][919]LogNet: Browse: /Game/TopDownBP/Maps/Menu
-[2015.06.15-16.40.47:110][919]LogLoad: LoadMap: /Game/TopDownBP/Maps/Menu
-[2015.06.15-16.40.47:139][919]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D80A700
-[2015.06.15-16.40.47:246][919]Cmd: MEM
-[2015.06.15-16.40.47:273][919]LogMemory: Platform Memory Stats for Windows
-[2015.06.15-16.40.47:273][919]LogMemory: Process Physical Memory: 834.26 MB used, 1351.11 MB peak
-[2015.06.15-16.40.47:273][919]LogMemory: Process Virtual Memory: 731.57 MB used, 1256.24 MB peak
-[2015.06.15-16.40.47:273][919]LogMemory: Physical Memory: 4946.74 MB used, 8173.22 MB total
-[2015.06.15-16.40.47:273][919]LogMemory: Virtual Memory: 1265.00 MB used, 8388608.00 MB total
-[2015.06.15-16.40.47:273][919]LogMemory: 
-[2015.06.15-16.40.47:273][919]Allocator Stats for TBB: (not implemented)
-[2015.06.15-16.40.47:278][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005140s)
-[2015.06.15-16.40.47:279][919]LogPlayLevel: PIE: World Init took: (0.000678s)
-[2015.06.15-16.40.47:279][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/Menu.Menu to /Game/TopDownBP/Maps/UEDPIE_0_Menu.Menu (0.006025s)
-[2015.06.15-16.40.47:279][919]LogWorld: Game class is 'TopDownGameMode_C'
-[2015.06.15-16.40.47:281][919]LogAIModule: Creating AISystem for world Menu
-[2015.06.15-16.40.47:283][919]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2015.06.15-12.40.47
-[2015.06.15-16.40.47:283][919]LogWorld: Bringing up level for play took: 0.001435
-[2015.06.15-16.40.47:285][919]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2015.06.15-16.40.48:972][962]LogPackageName: SearchForPackageOnDisk took   0.084s to resolve TopDownExampleMap.umap
-[2015.06.15-16.40.49:059][962]LogPackageName: SearchForPackageOnDisk took   0.085s to resolve TopDownExampleMap.umap
-[2015.06.15-16.40.49:059][962]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap
-[2015.06.15-16.40.49:059][962]LogLoad: LoadMap: /Game/TopDownBP/Maps/TopDownExampleMap
-[2015.06.15-16.40.49:083][962]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021B96CA0
-[2015.06.15-16.40.49:089][962]Cmd: MEM
-[2015.06.15-16.40.49:115][962]LogMemory: Platform Memory Stats for Windows
-[2015.06.15-16.40.49:115][962]LogMemory: Process Physical Memory: 830.25 MB used, 1351.11 MB peak
-[2015.06.15-16.40.49:115][962]LogMemory: Process Virtual Memory: 727.57 MB used, 1256.24 MB peak
-[2015.06.15-16.40.49:115][962]LogMemory: Physical Memory: 4905.51 MB used, 8173.22 MB total
-[2015.06.15-16.40.49:115][962]LogMemory: Virtual Memory: 1261.00 MB used, 8388608.00 MB total
-[2015.06.15-16.40.49:115][962]LogMemory: 
-[2015.06.15-16.40.49:115][962]Allocator Stats for TBB: (not implemented)
-[2015.06.15-16.40.50:506][962]LogWorld: Game class is 'TopDownGameMode_C'
-[2015.06.15-16.40.50:508][962]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2015.06.15-16.40.50:524][962]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.06.15-16.40.50:524][962]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.06.15-12.40.50
-[2015.06.15-16.40.50:526][962]LogWorld: Bringing up level for play took: 0.016735
-[2015.06.15-16.40.50:528][962]LogScript:Warning: Accessed None 'MainMenuRef'
-	TopDownExampleMap_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap_C_0
-	Function /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap_C:ExecuteUbergraph_TopDownExampleMap:02E1
-[2015.06.15-16.40.50:528][962]PIE:Error: Error Accessed None 'MainMenuRef' from node Q in blueprint TopDownExampleMap
-[2015.06.15-16.40.59:424][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000217B1620
-[2015.06.15-16.41.31:102][158]Cmd: MAP LOAD FILE="../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.06.15-16.41.31:103][158]LightingResults: New page: Lighting Build
-[2015.06.15-16.41.31:146][158]LoadErrors: New page: Loading map: TopDownExampleMap.umap
-[2015.06.15-16.41.31:147][158]MapCheck: New page: Map Check
-[2015.06.15-16.41.31:147][158]LightingResults: New page: Lighting Build
-[2015.06.15-16.41.31:227][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000220C0AE0
-[2015.06.15-16.41.31:231][158]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.06.15-16.41.31:231][158]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2015.06.15-16.41.31:284][158]Cmd: MAP CHECKDEP
-[2015.06.15-16.41.31:284][158]MapCheck: New page: TopDownExampleMap - Jun 15, 2015, 8:41:31 AM
-[2015.06.15-16.41.31:407][158]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 122.455ms to complete.
-[2015.06.15-16.41.31:407][158]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.307
-[2015.06.15-16.47.03:117][352]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
-[2015.06.15-16.47.03:117][352]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.06.15-16.47.03:117][352]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
-[2015.06.15-16.47.03:118][352]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
-[2015.06.15-16.47.03:139][352]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000193F0D60
-[2015.06.15-16.47.06:581][352]LogSavePackage: Save=3396.718262ms
-[2015.06.15-16.47.06:581][352]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/TopDownExampleMap844A154E4DC91060AE9E0B85EEEFB941.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/TopDownExampleMap.umap'
-[2015.06.15-16.47.57:508][260]LogSavePackage: Save=2393.210449ms
-[2015.06.15-16.47.57:508][260]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/TopDownExampleMap1B3CD86746384ED247CF30ADC6290BD2.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/TopDownExampleMap.umap'
-[2015.06.15-16.47.57:562][260]LogFileHelpers: Saving map 'TopDownExampleMap' took 2.604
-[2015.06.15-16.50.11:760][154]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Carlos/Downloads/Peppermint_man.fbx)
-[2015.06.15-16.50.11:940][154]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.06.15-16.50.11:940][154]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.06.15-16.50.11:940][154]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.06.15-16.50.11:940][154]LogFbx: ItemName: NodeAttribute, ItemCount : 222
-[2015.06.15-16.50.11:940][154]LogFbx: ItemName: Model, ItemCount : 224
-[2015.06.15-16.50.11:940][154]LogFbx: ItemName: Geometry, ItemCount : 2
-[2015.06.15-16.50.11:940][154]LogFbx: ItemName: Material, ItemCount : 2
-[2015.06.15-16.50.11:940][154]LogFbx: ItemName: Texture, ItemCount : 1
-[2015.06.15-16.50.11:940][154]LogFbx: ItemName: Video, ItemCount : 1
-[2015.06.15-16.50.21:221][154]LogFbx: Loading FBX Scene from ../../../../../../Users/Carlos/Downloads/Peppermint_man.fbx
-[2015.06.15-16.50.21:318][154]LogFbx: FBX Scene Loaded Succesfully
-[2015.06.15-16.50.21:444][154]LogLinker:Warning: Can't find file '/Game/TopDownBP/Maps/blinn1'
-[2015.06.15-16.50.21:444][154]LogLinker:Warning: Can't find file '/Game/TopDownBP/Maps/blinn1'
-[2015.06.15-16.50.21:444][154]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/TopDownBP/Maps/blinn1.blinn1'
-[2015.06.15-16.50.21:459][154]LogLinker:Warning: Can't find file '/Game/TopDownBP/Maps/peppermint_man_text'
-[2015.06.15-16.50.21:460][154]LogLinker:Warning: Can't find file '/Game/TopDownBP/Maps/peppermint_man_text'
-[2015.06.15-16.50.21:460][154]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/TopDownBP/Maps/peppermint_man_text.peppermint_man_text'
-[2015.06.15-16.50.21:570][154]LogTexture:Display: Building textures: peppermint_man_text (AutoDXT)
-[2015.06.15-16.50.21:767][154]LogMaterial: Missing cached shader map for material blinn1, compiling. 
-[2015.06.15-16.50.21:865][154]LogFbx:Warning: Triangulating static mesh polySurface18
-[2015.06.15-16.50.22:430][154]LogLinker:Warning: Can't find file '/Game/TopDownBP/Maps/lambert1'
-[2015.06.15-16.50.22:430][154]LogLinker:Warning: Can't find file '/Game/TopDownBP/Maps/lambert1'
-[2015.06.15-16.50.22:430][154]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/TopDownBP/Maps/lambert1.lambert1'
-[2015.06.15-16.50.22:482][154]LogMaterial: Missing cached shader map for material lambert1, compiling. 
-[2015.06.15-16.50.22:552][154]LogFbx:Warning: Triangulating static mesh polySurface19
-[2015.06.15-16.50.22:581][154]LogFbx: == Initial material list:
-[2015.06.15-16.50.22:581][154]LogFbx: 0: blinn1
-[2015.06.15-16.50.22:581][154]LogFbx: 1: lambert1
-[2015.06.15-16.50.22:581][154]LogFbx: == After sorting:
-[2015.06.15-16.50.22:581][154]LogFbx: 0: blinn1
-[2015.06.15-16.50.22:581][154]LogFbx: 1: lambert1
-[2015.06.15-16.50.22:581][154]LogFbx: == Mapping table:
-[2015.06.15-16.50.22:581][154]LogFbx:   sort 0 -> 0
-[2015.06.15-16.50.22:581][154]LogFbx:   sort 1 -> 1
-[2015.06.15-16.50.22:584][154]LogStaticMesh: Building static mesh Peppermint_man...
-[2015.06.15-16.50.22:758][154]LogStaticMesh: Built static mesh [173.649506ms] /Game/TopDownBP/Maps/Peppermint_man.Peppermint_man
-[2015.06.15-16.50.22:792][154]LogStaticMesh:Warning: Peppermint_man has degenerate tangent bases which will result in incorrect shading. 
-[2015.06.15-16.50.33:483][154]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2015.06.15-16.50.33:545][154]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2015.06.15-16.50.33:546][154]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDownBP/Maps'
-[2015.06.15-16.50.43:737][738]LogActorFactory: Actor Factory created Peppermint_man
-[2015.06.15-16.50.54:325][  6]LogActorFactory: Actor Factory created Peppermint_man
-[2015.06.15-16.50.55:793][ 30]LogActorFactory: Actor Factory created Peppermint_man
-[2015.06.15-16.50.58:265][209]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.06.15-16.50.58:265][209]LogPlayLevel: [PIE] Compiling TopDownExampleMap before PIE...
-[2015.06.15-16.50.58:335][209]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
-[2015.06.15-16.50.58:335][209]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.06.15-16.50.58:357][209]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021862480
-[2015.06.15-16.50.58:363][209]LogPlayLevel: PIE:  Blueprint regeneration took 97 ms (1 blueprints)
-[2015.06.15-16.50.58:363][209]PIE: New page: PIE session: TopDownExampleMap (Jun 15, 2015, 8:50:58 AM)
-[2015.06.15-16.50.58:394][209]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2015.06.15-16.50.58:394][209]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2015.06.15-16.50.58:395][209]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2015.06.15-16.50.58:395][209]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2015.06.15-16.50.58:396][209]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2015.06.15-16.50.58:396][209]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2015.06.15-16.50.58:403][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039512s)
-[2015.06.15-16.50.58:404][209]LogPlayLevel: PIE: World Init took: (0.001047s)
-[2015.06.15-16.50.58:404][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.040854s)
-[2015.06.15-16.50.58:441][209]LogWorld: Game class is 'TopDownGameMode_C'
-[2015.06.15-16.50.58:443][209]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2015.06.15-16.50.58:457][209]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.06.15-16.50.58:457][209]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.06.15-12.50.58
-[2015.06.15-16.50.58:459][209]LogWorld: Bringing up level for play took: 0.014996
-[2015.06.15-16.50.58:462][209]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.484
-[2015.06.15-16.51.04:791][323]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001888A520
-[2015.06.15-16.51.28:423][658]BlueprintLog: New page: Pre-PIE auto-recompile
-[2015.06.15-16.51.28:423][658]LogPlayLevel: [PIE] Compiling TopDownExampleMap before PIE...
-[2015.06.15-16.51.28:524][658]LogPlayLevel: PIE:  Blueprint regeneration took 101 ms (1 blueprints)
-[2015.06.15-16.51.28:525][658]PIE: New page: PIE session: TopDownExampleMap (Jun 15, 2015, 8:51:28 AM)
-[2015.06.15-16.51.28:555][658]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2015.06.15-16.51.28:555][658]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2015.06.15-16.51.28:555][658]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2015.06.15-16.51.28:555][658]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2015.06.15-16.51.28:557][658]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2015.06.15-16.51.28:557][658]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
-[2015.06.15-16.51.28:563][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037613s)
-[2015.06.15-16.51.28:564][658]LogPlayLevel: PIE: World Init took: (0.000848s)
-[2015.06.15-16.51.28:564][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.038690s)
-[2015.06.15-16.51.28:598][658]LogWorld: Game class is 'TopDownGameMode_C'
-[2015.06.15-16.51.28:600][658]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2015.06.15-16.51.28:614][658]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2015.06.15-16.51.28:614][658]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.06.15-12.51.28
-[2015.06.15-16.51.28:616][658]LogWorld: Bringing up level for play took: 0.015412
-[2015.06.15-16.51.28:619][658]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.64
-[2015.06.15-16.51.31:666][712]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027801300
-[2015.06.15-16.51.42:732][898]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2015.06.15-16.51.53:442][151]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Carlos/Downloads/ChocolatePuddles.fbx)
-[2015.06.15-16.51.53:445][151]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2015.06.15-16.51.53:445][151]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2015.06.15-16.51.53:445][151]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2015.06.15-16.51.53:445][151]LogFbx: ItemName: Geometry, ItemCount : 1
-[2015.06.15-16.51.53:445][151]LogFbx: ItemName: Material, ItemCount : 1
-[2015.06.15-16.51.53:445][151]LogFbx: ItemName: Model, ItemCount : 1
-[2015.06.15-16.51.55:525][151]LogFbx: Loading FBX Scene from ../../../../../../Users/Carlos/Downloads/ChocolatePuddles.fbx
-[2015.06.15-16.51.55:534][151]LogFbx: FBX Scene Loaded Succesfully
-[2015.06.15-16.51.55:538][151]LogLinker:Warning: Can't find file '/Game/TopDownBP/Maps/lambert3'
-[2015.06.15-16.51.55:538][151]LogLinker:Warning: Can't find file '/Game/TopDownBP/Maps/lambert3'
-[2015.06.15-16.51.55:539][151]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/TopDownBP/Maps/lambert3.lambert3'
-[2015.06.15-16.51.55:549][151]LogMaterial: Missing cached shader map for material lambert3, compiling. 
-[2015.06.15-16.51.55:560][151]LogFbx:Warning: Triangulating static mesh pSphere4
-[2015.06.15-16.51.55:778][151]LogFbx: == Initial material list:
-[2015.06.15-16.51.55:778][151]LogFbx: 0: lambert3
-[2015.06.15-16.51.55:778][151]LogFbx: == After sorting:
-[2015.06.15-16.51.55:778][151]LogFbx: 0: lambert3
-[2015.06.15-16.51.55:778][151]LogFbx: == Mapping table:
-[2015.06.15-16.51.55:778][151]LogFbx:   sort 0 -> 0
-[2015.06.15-16.51.55:779][151]LogStaticMesh: Building static mesh ChocolatePuddles...
-[2015.06.15-16.51.55:804][151]LogStaticMesh: Built static mesh [25.610525ms] /Game/TopDownBP/Maps/ChocolatePuddles.ChocolatePuddles
-[2015.06.15-16.51.55:819][151]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2015.06.15-16.51.55:843][151]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2015.06.15-16.51.55:843][151]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDownBP/Maps'
-[2015.06.15-16.52.01:042][334]LogActorFactory: Actor Factory created ChocolatePuddles
-[2015.06.15-16.52.02:377][356]LogActorFactory: Actor Factory created ChocolatePuddles
-[2015.06.15-16.52.36:818][524]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDownBP/Maps'
-[2015.06.15-16.52.46:833][772]LogMaterial: Missing cached shader map for material Brown, compiling. 
-[2015.06.15-16.52.46:899][772]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_8) Not registered. Aborting.
-[2015.06.15-16.52.46:988][772]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_8) Not registered. Aborting.
-[2015.06.15-16.52.46:996][772]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
-[2015.06.15-16.52.46:997][772]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_8) Not registered. Aborting.
-[2015.06.15-16.52.46:997][772]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
-[2015.06.15-16.52.47:008][772]LogMaterial: Missing cached shader map for material Brown, compiling. 
-[2015.06.15-16.52.47:015][772]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.06.15-16.52.48:286][817]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.06.15-16.52.48:286][817]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.06.15-16.52.48:286][817]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.06.15-16.53.55:737][727]LogMaterial: Missing cached shader map for material Brown, compiling. 
-[2015.06.15-16.53.55:744][727]LogMaterial: 0.000142 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.06.15-16.53.55:747][727]LogMaterial: Missing cached shader map for material Brown, compiling. 
-[2015.06.15-16.53.55:748][727]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Brown for platform PCD3D_SM5, Default Material will be used in game.
-[2015.06.15-16.53.55:748][727]LogMaterial:Warning: 	(Node Desaturation) Missing Desaturation input
-[2015.06.15-16.53.55:748][727]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.06.15-16.53.55:751][727]MaterialEditorStats:Error: Error [SM5] (Node Desaturation) Missing Desaturation input
-[2015.06.15-16.53.58:318][848]LogMaterial: Missing cached shader map for material Brown, compiling. 
-[2015.06.15-16.53.58:325][848]LogMaterial: 0.000029 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.06.15-16.53.59:615][911]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.06.15-16.53.59:615][911]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.06.15-16.53.59:615][911]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.06.15-16.54.16:256][682]LogMaterial: Missing cached shader map for material Brown, compiling. 
-[2015.06.15-16.54.16:263][682]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.06.15-16.54.16:992][711]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.06.15-16.54.16:992][711]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.06.15-16.54.16:992][711]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.06.15-16.54.21:632][930]LogMaterial: Missing cached shader map for material Brown, compiling. 
-[2015.06.15-16.54.21:639][930]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.06.15-16.54.22:459][972]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
-[2015.06.15-16.54.22:459][972]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2015.06.15-16.54.22:459][972]MaterialEditorStats: Info Texture samplers: 1/16
-[2015.06.15-16.57.33:805][579]LogMaterial: Missing cached shader map for material Brown, compiling. 
-[2015.06.15-16.57.33:812][579]LogMaterial: 0.000125 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2015.06.15-16.57.35:113][641]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
-[2015.06.15-16.57.35:113][641]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2015.06.15-16.57.35:113][641]MaterialEditorStats: Info Texture samplers: 0/16
-[2015.06.15-16.57.40:118][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ChocolatePuddles)
-[2015.06.15-16.58.00:757][270]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
-[2015.06.15-16.58.00:757][270]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.06.15-16.58.00:787][270]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BB5ACA0
-[2015.06.15-16.58.03:375][270]LogSavePackage: Save=2466.437744ms
-[2015.06.15-16.58.03:376][270]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/TopDownExampleMap_Auto11EFA118F4D21CE40147689BB3B30FF9F.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap'
-[2015.06.15-16.58.03:386][270]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 2.630
-[2015.06.15-16.58.03:386][270]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.630
-[2015.06.15-16.58.03:424][270]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Maps/blinn1] ([1] browsable assets)...
-[2015.06.15-16.58.03:516][270]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TopDownBP/Maps/blinn1.blinn1]
-[2015.06.15-16.58.03:516][270]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Maps/blinn1]
-[2015.06.15-16.58.04:018][270]LogSavePackage: Save=498.562134ms
-[2015.06.15-16.58.04:019][270]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/blinn1_Auto121337EEF4F0008D05E4CBA873E45AADB.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Maps/blinn1_Auto1.uasset'
-[2015.06.15-16.58.04:063][270]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Maps/Peppermint_man] ([1] browsable assets)...
-[2015.06.15-16.58.04:156][270]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TopDownBP/Maps/Peppermint_man.Peppermint_man]
-[2015.06.15-16.58.04:156][270]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Maps/Peppermint_man]
-[2015.06.15-16.58.04:772][270]LogSavePackage: Save=611.974487ms
-[2015.06.15-16.58.04:804][270]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Peppermint_man_Auto10B3C745A46FDB7580B48E69732C047D8.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Maps/Peppermint_man_Auto1.uasset'
-[2015.06.15-16.58.04:850][270]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Maps/peppermint_man_text] ([1] browsable assets)...
-[2015.06.15-16.58.04:892][270]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TopDownBP/Maps/peppermint_man_text.peppermint_man_text]
-[2015.06.15-16.58.04:892][270]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Maps/peppermint_man_text]
-[2015.06.15-16.58.05:203][270]LogSavePackage: Save=307.498718ms
-[2015.06.15-16.58.05:205][270]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/peppermint_man_text_Auto1E10492DF4BEF52C193D4F0BEAFD55E0E.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Maps/peppermint_man_text_Auto1.uasset'
-[2015.06.15-16.58.05:254][270]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Maps/lambert1] ([1] browsable assets)...
-[2015.06.15-16.58.05:347][270]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TopDownBP/Maps/lambert1.lambert1]
-[2015.06.15-16.58.05:347][270]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Maps/lambert1]
-[2015.06.15-16.58.06:091][270]LogSavePackage: Save=741.387451ms
-[2015.06.15-16.58.06:092][270]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/lambert1_Auto19F139AA1403FB4D29F56749839A9F3E0.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Maps/lambert1_Auto1.uasset'
-[2015.06.15-16.58.06:164][270]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Maps/ChocolatePuddles] ([1] browsable assets)...
-[2015.06.15-16.58.06:276][270]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TopDownBP/Maps/ChocolatePuddles.ChocolatePuddles]
-[2015.06.15-16.58.06:276][270]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Maps/ChocolatePuddles]
-[2015.06.15-16.58.06:982][270]LogSavePackage: Save=701.298767ms
-[2015.06.15-16.58.06:985][270]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/ChocolatePuddles_Auto132973F774023967BF5D229825600FC9F.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Maps/ChocolatePuddles_Auto1.uasset'
-[2015.06.15-16.58.07:030][270]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Maps/lambert3] ([1] browsable assets)...
-[2015.06.15-16.58.07:141][270]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TopDownBP/Maps/lambert3.lambert3]
-[2015.06.15-16.58.07:141][270]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Maps/lambert3]
-[2015.06.15-16.58.07:835][270]LogSavePackage: Save=690.961792ms
-[2015.06.15-16.58.07:841][270]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/lambert3_Auto14293223C4ECFD6FA71A989A3491622A9.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Maps/lambert3_Auto1.uasset'
-[2015.06.15-16.58.07:883][270]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Maps/Brown] ([1] browsable assets)...
-[2015.06.15-16.58.07:990][270]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TopDownBP/Maps/Brown.Brown]
-[2015.06.15-16.58.07:990][270]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Maps/Brown]
-[2015.06.15-16.58.08:457][270]LogSavePackage: Save=462.873779ms
-[2015.06.15-16.58.08:463][270]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Brown_Auto1B67EC2794C9B30761CA8BD83BE380FEC.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Maps/Brown_Auto1.uasset'
-[2015.06.15-16.58.08:472][270]LogFileHelpers: Auto-saving content packages took 5.085
-[2015.06.15-16.59.19:882][488]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2015.06.15-16.59.21:804][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ChocolatePuddles)
-[2015.06.15-17.00.18:098][459]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2015.06.15-17.00.18:608][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ChocolatePuddles)
-[2015.06.15-17.00.54:785][908]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
-[2015.06.15-17.00.54:785][908]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2015.06.15-17.00.57:718][908]LogSavePackage: Save=2588.274414ms
-[2015.06.15-17.00.57:718][908]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/TopDownExampleMap663868CC4792F0F7C708EC9BFAF78912.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/TopDownExampleMap.umap'
-[2015.06.15-17.00.57:772][908]LogFileHelpers: Saving map 'TopDownExampleMap' took 2.844
-[2015.06.15-17.00.57:818][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/blinn1" FILE="../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/blinn1.uasset" SILENT=true
-[2015.06.15-17.00.58:231][908]LogSavePackage: Save=411.307373ms
-[2015.06.15-17.00.58:231][908]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/blinn1641BCAE64FC88B7229E239AC6F7DFD76.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/blinn1.uasset'
-[2015.06.15-17.00.58:716][908]LogSavePackage: Save=437.861053ms
-[2015.06.15-17.00.58:716][908]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Peppermint_man12E0B3B0481311CFF63BACB402522366.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/Peppermint_man.uasset'
-[2015.06.15-17.00.58:780][908]LogSavePackage: Save=36.876839ms
-[2015.06.15-17.00.58:780][908]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/peppermint_man_text0435ED08448D08C0DE7BB0A7DDC4D32D.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/peppermint_man_text.uasset'
-[2015.06.15-17.00.58:828][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/lambert1" FILE="../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/lambert1.uasset" SILENT=true
-[2015.06.15-17.00.59:424][908]LogSavePackage: Save=593.803162ms
-[2015.06.15-17.00.59:424][908]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/lambert1861F5E9E4F09FE1768429695BBD9D783.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/lambert1.uasset'
-[2015.06.15-17.00.59:997][908]LogSavePackage: Save=525.501709ms
-[2015.06.15-17.00.59:997][908]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/ChocolatePuddlesA548034A4871BC947778EEB4001BF3BF.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/ChocolatePuddles.uasset'
-[2015.06.15-17.01.00:048][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/lambert3" FILE="../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/lambert3.uasset" SILENT=true
-[2015.06.15-17.01.00:631][908]LogSavePackage: Save=570.136963ms
-[2015.06.15-17.01.00:631][908]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/lambert36BA0120242E988B1D7ECBA937CDE952D.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/lambert3.uasset'
-[2015.06.15-17.01.07:694][523]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2015.06.15-17.01.15:568][202]Cmd: QUIT_EDITOR
-[2015.06.15-17.01.15:899][202]LogExit: Preparing to exit.
-[2015.06.15-17.01.17:077][202]LogExit: Editor shut down
-[2015.06.15-17.01.17:077][202]LogExit: Transaction tracking system shut down
-[2015.06.15-17.01.17:081][202]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001FE5DEE0
-[2015.06.15-17.01.17:081][202]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E3D2DE0
-[2015.06.15-17.01.17:081][202]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001FE5E7A0
-[2015.06.15-17.01.17:081][202]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020D35120
-[2015.06.15-17.01.17:081][202]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000224C9D00
-[2015.06.15-17.01.17:081][202]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000224CA3E0
-[2015.06.15-17.01.17:239][202]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000028F9A0C0
-[2015.06.15-17.01.17:239][202]LogExit: Object subsystem successfully closed.
-[2015.06.15-17.01.17:291][202]LogModuleManager: Shutting down and abandoning module MaterialEditor (178)
-[2015.06.15-17.01.17:291][202]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
-[2015.06.15-17.01.17:291][202]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
-[2015.06.15-17.01.17:291][202]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
-[2015.06.15-17.01.17:291][202]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
-[2015.06.15-17.01.17:291][202]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
-[2015.06.15-17.01.17:291][202]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
-[2015.06.15-17.01.17:291][202]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
-[2015.06.15-17.01.17:291][202]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
-[2015.06.15-17.01.17:291][202]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
-[2015.06.15-17.01.17:291][202]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
-[2015.06.15-17.01.17:291][202]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
-[2015.06.15-17.01.17:291][202]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
-[2015.06.15-17.01.17:291][202]LogModuleManager: Shutting down and abandoning module BspMode (165)
-[2015.06.15-17.01.17:291][202]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
-[2015.06.15-17.01.17:291][202]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
-[2015.06.15-17.01.17:291][202]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
-[2015.06.15-17.01.17:291][202]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
-[2015.06.15-17.01.17:291][202]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
-[2015.06.15-17.01.17:291][202]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
-[2015.06.15-17.01.17:292][202]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
-[2015.06.15-17.01.17:292][202]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
-[2015.06.15-17.01.17:292][202]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
-[2015.06.15-17.01.17:292][202]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
-[2015.06.15-17.01.17:292][202]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
-[2015.06.15-17.01.17:292][202]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
-[2015.06.15-17.01.17:292][202]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
-[2015.06.15-17.01.17:292][202]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
-[2015.06.15-17.01.17:292][202]LogModuleManager: Shutting down and abandoning module XmlParser (150)
-[2015.06.15-17.01.17:292][202]LogModuleManager: Shutting down and abandoning module Blutility (149)
-[2015.06.15-17.01.17:292][202]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
-[2015.06.15-17.01.17:292][202]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
-[2015.06.15-17.01.17:292][202]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
-[2015.06.15-17.01.17:704][202]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
-[2015.06.15-17.01.17:704][202]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
-[2015.06.15-17.01.17:704][202]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
-[2015.06.15-17.01.17:704][202]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
-[2015.06.15-17.01.17:704][202]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
-[2015.06.15-17.01.17:704][202]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
-[2015.06.15-17.01.17:704][202]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
-[2015.06.15-17.01.17:704][202]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
-[2015.06.15-17.01.17:704][202]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
-[2015.06.15-17.01.17:704][202]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
-[2015.06.15-17.01.17:704][202]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
-[2015.06.15-17.01.17:704][202]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
-[2015.06.15-17.01.17:704][202]LogModuleManager: Shutting down and abandoning module AutomationController (133)
-[2015.06.15-17.01.17:705][202]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
-[2015.06.15-17.01.17:705][202]LogModuleManager: Shutting down and abandoning module Layers (131)
-[2015.06.15-17.01.17:705][202]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
-[2015.06.15-17.01.17:705][202]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
-[2015.06.15-17.01.17:705][202]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
-[2015.06.15-17.01.17:705][202]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
-[2015.06.15-17.01.17:765][202]LogModuleManager: Shutting down and abandoning module Persona (126)
-[2015.06.15-17.01.17:765][202]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
-[2015.06.15-17.01.17:765][202]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
-[2015.06.15-17.01.17:766][202]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2015.06.15-17.01.17:766][202]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2015.06.15-17.01.17:767][202]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2015.06.15-17.01.17:767][202]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2015.06.15-17.01.17:767][202]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2015.06.15-17.01.17:767][202]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2015.06.15-17.01.17:767][202]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2015.06.15-17.01.17:767][202]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2015.06.15-17.01.17:767][202]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2015.06.15-17.01.17:767][202]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2015.06.15-17.01.17:767][202]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2015.06.15-17.01.17:767][202]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2015.06.15-17.01.17:767][202]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2015.06.15-17.01.17:767][202]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2015.06.15-17.01.17:767][202]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2015.06.15-17.01.17:767][202]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
-[2015.06.15-17.01.17:767][202]LogModuleManager: Shutting down and abandoning module AIModule (107)
-[2015.06.15-17.01.17:767][202]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
-[2015.06.15-17.01.17:825][202]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
-[2015.06.15-17.01.17:825][202]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2015.06.15-17.01.17:825][202]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2015.06.15-17.01.17:825][202]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2015.06.15-17.01.17:825][202]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2015.06.15-17.01.17:825][202]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2015.06.15-17.01.17:825][202]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2015.06.15-17.01.17:825][202]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2015.06.15-17.01.17:825][202]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2015.06.15-17.01.17:825][202]LogModuleManager: Shutting down and abandoning module MainFrame (96)
-[2015.06.15-17.01.17:825][202]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
-[2015.06.15-17.01.17:825][202]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
-[2015.06.15-17.01.17:825][202]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
-[2015.06.15-17.01.17:826][202]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2015.06.15-17.01.17:826][202]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
-[2015.06.15-17.01.17:826][202]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
-[2015.06.15-17.01.17:826][202]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
-[2015.06.15-17.01.17:826][202]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
-[2015.06.15-17.01.17:826][202]LogModuleManager: Shutting down and abandoning module SourceControl (87)
-[2015.06.15-17.01.17:826][202]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
-[2015.06.15-17.01.17:826][202]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
-[2015.06.15-17.01.17:826][202]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
-[2015.06.15-17.01.17:826][202]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
-[2015.06.15-17.01.17:826][202]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2015.06.15-17.01.17:826][202]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2015.06.15-17.01.17:827][202]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
-[2015.06.15-17.01.17:827][202]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
-[2015.06.15-17.01.17:927][202]LogModuleManager: Shutting down and abandoning module Paper2D (78)
-[2015.06.15-17.01.17:927][202]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
-[2015.06.15-17.01.17:930][202]LogModuleManager: Shutting down and abandoning module Media (76)
-[2015.06.15-17.01.17:930][202]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
-[2015.06.15-17.01.17:930][202]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2015.06.15-17.01.17:930][202]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
-[2015.06.15-17.01.17:930][202]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
-[2015.06.15-17.01.17:930][202]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
-[2015.06.15-17.01.17:930][202]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
-[2015.06.15-17.01.17:930][202]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
-[2015.06.15-17.01.17:930][202]LogModuleManager: Shutting down and abandoning module MessageLog (68)
-[2015.06.15-17.01.17:930][202]LogModuleManager: Shutting down and abandoning module Sequencer (67)
-[2015.06.15-17.01.17:930][202]LogModuleManager: Shutting down and abandoning module AssetTools (66)
-[2015.06.15-17.01.17:930][202]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
-[2015.06.15-17.01.17:930][202]LogModuleManager: Shutting down and abandoning module UMG (64)
-[2015.06.15-17.01.17:930][202]LogModuleManager: Shutting down and abandoning module Slate (63)
-[2015.06.15-17.01.17:930][202]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
-[2015.06.15-17.01.17:935][202]LogModuleManager: Shutting down and abandoning module SessionServices (61)
-[2015.06.15-17.01.17:935][202]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
-[2015.06.15-17.01.17:935][202]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
-[2015.06.15-17.01.17:935][202]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
-[2015.06.15-17.01.17:935][202]LogModuleManager: Shutting down and abandoning module Networking (56)
-[2015.06.15-17.01.17:935][202]LogModuleManager: Shutting down and abandoning module Core (55)
-[2015.06.15-17.01.17:936][202]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
-[2015.06.15-17.01.17:936][202]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
-[2015.06.15-17.01.17:936][202]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
-[2015.06.15-17.01.17:936][202]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
-[2015.06.15-17.01.17:973][202]LogDerivedDataCache: Shutdown
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module Messaging (34)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2015.06.15-17.01.17:973][202]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2015.06.15-17.01.17:974][202]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2015.06.15-17.01.17:974][202]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2015.06.15-17.01.17:974][202]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2015.06.15-17.01.17:974][202]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2015.06.15-17.01.17:974][202]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2015.06.15-17.01.17:974][202]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2015.06.15-17.01.17:976][202]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2015.06.15-17.01.17:976][202]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2015.06.15-17.01.17:976][202]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2015.06.15-17.01.17:976][202]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2015.06.15-17.01.17:976][202]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2015.06.15-17.01.17:976][202]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2015.06.15-17.01.17:976][202]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2015.06.15-17.01.17:976][202]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2015.06.15-17.01.17:976][202]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2015.06.15-17.01.17:977][202]LogExit: Exiting.
-[2015.06.15-17.01.18:008][202]Log file closed, 06/15/15 13:01:18
+[2015.06.17-17.00.34:760][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.06.17-17.00.37:809][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.17-17.00.38:445][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.17-17.00.38:524][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.06.17-17.00.38:568][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Carlos/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.17-17.00.38:568][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Carlos/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.06.17-17.00.38:568][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.06.17-17.00.38:568][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.06.17-17.00.38:730][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.06.17-17.00.38:741][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Carlos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.06.17-17.00.39:133][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.06.17-17.00.39:133][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.06.17-17.00.39:595][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.06.17-17.00.39:688][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.06.17-17.00.40:643][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.06.17-17.00.40:868][  0]SourceControl: Info Source control is disabled
+[2015.06.17-17.00.40:868][  0]SourceControl: Info Source control is disabled
+[2015.06.17-17.00.40:868][  0]SourceControl: Info Source control is disabled
+[2015.06.17-17.00.40:879][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.06.17-17.00.40:879][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.06.17-17.00.41:105][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.06.17-17.00.41:105][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.06.17-17.00.41:208][  0]LogEngine: Initializing Engine...
+[2015.06.17-17.00.43:434][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.06.17-17.00.43:470][  0]LogInit: FAudioDevice initialized.
+[2015.06.17-17.00.43:515][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.06.17-17.00.43:552][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/Carlos/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.06.17-17.00.43:557][  0]LogInit: Texture streaming: Enabled
+[2015.06.17-17.00.43:674][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.06.17-17.00.43:674][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.17-17.00.43:674][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.06.17-17.00.43:674][  0]LogAnalytics: SetUserId 6aaf54be499587619b19c09b2da3310a|656f284bf5d54f8f9452234d119bf9d4|01f9fe1b-f0f7-4463-ad58-b4af02ddd4b9
+[2015.06.17-17.00.43:674][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.06.17-17.00.43:720][  0]LogInit: Transaction tracking system initialized
+[2015.06.17-17.00.43:935][  0]BlueprintLog: New page: Editor Load
+[2015.06.17-17.00.43:974][  0]LogAssetRegistry: FAssetRegistry took 0.0097 seconds to start up
+[2015.06.17-17.00.43:974][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.06.17-17.00.44:637][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.17-17.00.45:126][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.06.17-17.00.45:583][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.06.17-17.00.45:584][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.06.17-17.00.45:590][  0]LogConsoleResponse:Display: 
+[2015.06.17-17.00.45:878][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.06.17-17.00.46:090][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.06.17-17.00.46:090][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.06.17-17.00.46:091][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.17-17.00.46:153][  0]LightingResults: New page: Lighting Build
+[2015.06.17-17.00.46:197][  0]MapCheck: New page: Map Check
+[2015.06.17-17.00.46:197][  0]LightingResults: New page: Lighting Build
+[2015.06.17-17.00.46:215][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016DA0680
+[2015.06.17-17.00.51:463][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.17-17.00.51:478][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.17-17.00.51:493][  0]Cmd: MAP CHECKDEP
+[2015.06.17-17.00.51:494][  0]MapCheck: New page: TopDownExampleMap - Jun 17, 2015, 9:00:51 AM
+[2015.06.17-17.00.51:629][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 135.155ms to complete.
+[2015.06.17-17.00.51:629][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 5.538
+[2015.06.17-17.00.52:622][  0]LogCollectionManager: Loaded 0 collections in 0.006821 seconds
+[2015.06.17-17.00.52:653][  0]LogContentBrowser: Native class hierarchy populated in 0.0295 seconds. Added 1696 classes and 261 folders.
+[2015.06.17-17.00.53:075][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0079 seconds. Added 1 classes and 2 folders.
+[2015.06.17-17.00.54:967][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.06.17-17.00.55:026][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.06.17-17.00.55:042][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.06.17-17.00.55:112][  0]LogLoad: Full Startup: 23.85 seconds (BP compile: 1.32 seconds)
+[2015.06.17-17.00.55:275][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDownBP/Maps'
+[2015.06.17-17.00.56:327][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.06.17-17.00.56:964][  0]LogRenderer:Warning: Reallocating scene render targets to support 1240x656 (Frame:3).
+[2015.06.17-17.00.58:045][  7]LogAssetRegistry: Asset discovery search completed in 14.0807 seconds
+[2015.06.17-17.01.04:747][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ChocolatePuddles)
+[2015.06.17-17.01.07:247][503]Cmd: DELETE
+[2015.06.17-17.01.07:247][503]Cmd: ACTOR DELETE
+[2015.06.17-17.01.07:296][503]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.17-17.01.07:298][503]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.17-17.01.07:338][503]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2015.06.17-17.01.09:214][596]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Peppermint_man)
+[2015.06.17-17.01.10:259][656]Cmd: DELETE
+[2015.06.17-17.01.10:259][656]Cmd: ACTOR DELETE
+[2015.06.17-17.01.10:260][656]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.06.17-17.01.10:274][656]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2015.06.17-17.01.35:869][906]LogMaterial: Missing cached shader map for material blinn1, compiling. 
+[2015.06.17-17.01.35:870][906]LogMaterial:Warning: Failed to compile Material /Game/TopDownBP/Maps/blinn1.blinn1 for platform PCD3D_SM5, Default Material will be used in game.
+[2015.06.17-17.01.35:870][906]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2015.06.17-17.01.38:538][ 28]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.17-17.01.43:323][ 28]LogSavePackage: Save=3299.134766ms
+[2015.06.17-17.01.43:323][ 28]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/TopDownExampleMap4A24EB634159BCA22DD424B9C4498EFF.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2015.06.17-17.01.43:407][ 28]LogFileHelpers: Saving map 'TopDownExampleMap' took 4.683
+[2015.06.17-17.03.45:205][638]Cmd: MAP LOAD FILE="../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.17-17.03.45:205][638]LightingResults: New page: Lighting Build
+[2015.06.17-17.03.45:239][638]LoadErrors: New page: Loading map: Menu.umap
+[2015.06.17-17.03.45:241][638]MapCheck: New page: Map Check
+[2015.06.17-17.03.45:241][638]LightingResults: New page: Lighting Build
+[2015.06.17-17.03.45:252][638]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019003C40
+[2015.06.17-17.03.45:417][638]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.17-17.03.45:418][638]LogAIModule: Creating AISystem for world Menu
+[2015.06.17-17.03.45:468][638]Cmd: MAP CHECKDEP
+[2015.06.17-17.03.45:468][638]MapCheck: New page: Menu - Jun 17, 2015, 9:03:45 AM
+[2015.06.17-17.03.45:573][638]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 105.151ms to complete.
+[2015.06.17-17.03.45:573][638]LogFileHelpers: Loading map 'Menu' took 0.370
+[2015.06.17-17.04.04:437][560]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.17-17.04.04:456][560]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D32C900
+[2015.06.17-17.04.04:463][560]Cmd: MAP LOAD FILE="../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.06.17-17.04.04:464][560]LightingResults: New page: Lighting Build
+[2015.06.17-17.04.04:497][560]LoadErrors: New page: Loading map: TopDownExampleMap.umap
+[2015.06.17-17.04.04:498][560]MapCheck: New page: Map Check
+[2015.06.17-17.04.04:498][560]LightingResults: New page: Lighting Build
+[2015.06.17-17.04.04:516][560]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D903100
+[2015.06.17-17.04.04:569][560]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.06.17-17.04.04:570][560]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.17-17.04.04:618][560]Cmd: MAP CHECKDEP
+[2015.06.17-17.04.04:619][560]MapCheck: New page: TopDownExampleMap - Jun 17, 2015, 9:04:04 AM
+[2015.06.17-17.04.04:728][560]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 109.302ms to complete.
+[2015.06.17-17.04.04:729][560]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.269
+[2015.06.17-17.04.17:343][265]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDownBP/Blueprints'
+[2015.06.17-17.14.34:448][940]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.17-17.14.34:448][940]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.17-17.14.34:448][940]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.06.17-17.14.34:473][940]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D86C900
+[2015.06.17-17.14.36:946][940]LogSavePackage: Save=2297.113037ms
+[2015.06.17-17.14.36:946][940]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/TopDownExampleMap_Auto1639B1E5B48EC4A4F855676BD2027B189.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap'
+[2015.06.17-17.14.36:956][940]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 2.509
+[2015.06.17-17.14.36:956][940]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.509
+[2015.06.17-17.14.36:996][940]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/MainMenu] ([1] browsable assets)...
+[2015.06.17-17.14.36:996][940]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/MainMenu]
+[2015.06.17-17.14.37:216][940]LogSavePackage: Save=202.034149ms
+[2015.06.17-17.14.37:217][940]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/MainMenu_Auto10E637FB24CD73B46E1B968AFC6CDBF86.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/Autosaves/Game/TopDownBP/Blueprints/MainMenu_Auto1.uasset'
+[2015.06.17-17.14.37:251][940]LogFileHelpers: Auto-saving content packages took 0.295
+[2015.06.17-17.15.00:985][366]LogSavePackage: Save=2226.058105ms
+[2015.06.17-17.15.00:985][366]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/TopDownExampleMapB68C950A4A97508B24075CA864B87B9F.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2015.06.17-17.15.01:042][366]LogFileHelpers: Saving map 'TopDownExampleMap' took 2.425
+[2015.06.17-17.15.01:162][366]LogSavePackage: Save=107.690140ms
+[2015.06.17-17.15.01:162][366]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/MainMenuA3FDC77A4539590D46BFA8AD27DDA296.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Blueprints/MainMenu.uasset'
+[2015.06.17-17.15.02:858][436]BlueprintLog: New page: Compile TopDownExampleMap
+[2015.06.17-17.15.02:970][436]BlueprintEditorCompileResults: Info [0871.70] Compile of TopDownExampleMap successful! [in 111 ms]
+[2015.06.17-17.15.10:839][759]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player2Spawn)
+[2015.06.17-17.15.16:804][ 53]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.06.17-17.15.18:320][132]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (Player2Spawn)
+[2015.06.17-17.15.35:393][863]Cmd: DELETE
+[2015.06.17-17.15.35:393][863]Cmd: ACTOR DELETE
+[2015.06.17-17.15.35:394][863]LogEditorActor: Deleted Actor: PlayerStart
+[2015.06.17-17.15.35:396][863]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.17-17.15.35:420][863]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2015.06.17-17.15.35:987][893]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.06.17-17.15.36:184][901]Cmd: DELETE
+[2015.06.17-17.15.36:184][901]Cmd: ACTOR DELETE
+[2015.06.17-17.15.36:185][901]LogEditorActor: Deleted Actor: PlayerStart
+[2015.06.17-17.15.36:210][901]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2015.06.17-17.16.15:539][247]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.06.17-17.16.15:545][247]LogPlayLevel: [PIE] Compiling TopDownExampleMap before PIE...
+[2015.06.17-17.16.15:646][247]LogPlayLevel: [PIE] Compiling MainMenu before PIE...
+[2015.06.17-17.16.15:793][247]LogPlayLevel: PIE:  Blueprint regeneration took 253 ms (2 blueprints)
+[2015.06.17-17.16.15:793][247]PIE: New page: PIE session: TopDownExampleMap (Jun 17, 2015, 9:16:15 AM)
+[2015.06.17-17.16.15:826][247]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.17-17.16.15:826][247]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.17-17.16.15:826][247]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.17-17.16.15:826][247]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.17-17.16.15:827][247]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.17-17.16.15:827][247]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.17-17.16.15:835][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041880s)
+[2015.06.17-17.16.15:836][247]LogPlayLevel: PIE: World Init took: (0.000873s)
+[2015.06.17-17.16.15:836][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.043002s)
+[2015.06.17-17.16.15:921][247]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.17-17.16.15:927][247]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.17-17.16.15:953][247]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.17-17.16.15:953][247]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.17-13.16.15
+[2015.06.17-17.16.15:999][247]LogWorld: Bringing up level for play took: 0.070381
+[2015.06.17-17.16.16:059][247]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.893
+[2015.06.17-17.16.16:163][247]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:842).
+[2015.06.17-17.16.18:946][294]LogPackageName: SearchForPackageOnDisk took   0.109s to resolve Menu.umap
+[2015.06.17-17.16.19:027][294]LogPackageName: SearchForPackageOnDisk took   0.080s to resolve Menu.umap
+[2015.06.17-17.16.19:027][294]LogNet: Browse: /Game/TopDownBP/Maps/Menu
+[2015.06.17-17.16.19:028][294]LogLoad: LoadMap: /Game/TopDownBP/Maps/Menu
+[2015.06.17-17.16.19:060][294]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002929E700
+[2015.06.17-17.16.19:060][294]Cmd: MEM
+[2015.06.17-17.16.19:111][294]LogMemory: Platform Memory Stats for Windows
+[2015.06.17-17.16.19:111][294]LogMemory: Process Physical Memory: 1122.48 MB used, 1245.89 MB peak
+[2015.06.17-17.16.19:111][294]LogMemory: Process Virtual Memory: 1014.41 MB used, 1152.18 MB peak
+[2015.06.17-17.16.19:111][294]LogMemory: Physical Memory: 4601.58 MB used, 8173.22 MB total
+[2015.06.17-17.16.19:111][294]LogMemory: Virtual Memory: 1547.14 MB used, 8388608.00 MB total
+[2015.06.17-17.16.19:111][294]LogMemory: 
+[2015.06.17-17.16.19:111][294]Allocator Stats for TBB: (not implemented)
+[2015.06.17-17.16.20:146][294]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.17-17.16.20:154][294]LogAIModule: Creating AISystem for world Menu
+[2015.06.17-17.16.20:158][294]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 60) at 2015.06.17-13.16.20
+[2015.06.17-17.16.20:160][294]LogWorld: Bringing up level for play took: 0.004120
+[2015.06.17-17.16.20:162][294]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.06.17-17.16.21:684][333]LogPackageName: SearchForPackageOnDisk took   0.083s to resolve TopDownExampleMap.umap
+[2015.06.17-17.16.21:769][333]LogPackageName: SearchForPackageOnDisk took   0.083s to resolve TopDownExampleMap.umap
+[2015.06.17-17.16.21:769][333]LogNet: Browse: /Game/TopDownBP/Maps/TopDownExampleMap
+[2015.06.17-17.16.21:779][333]LogLoad: LoadMap: /Game/TopDownBP/Maps/TopDownExampleMap
+[2015.06.17-17.16.21:808][333]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000129704A0
+[2015.06.17-17.16.21:808][333]Cmd: MEM
+[2015.06.17-17.16.21:832][333]LogMemory: Platform Memory Stats for Windows
+[2015.06.17-17.16.21:832][333]LogMemory: Process Physical Memory: 1156.64 MB used, 1245.89 MB peak
+[2015.06.17-17.16.21:832][333]LogMemory: Process Virtual Memory: 1048.78 MB used, 1152.18 MB peak
+[2015.06.17-17.16.21:832][333]LogMemory: Physical Memory: 4626.20 MB used, 8173.22 MB total
+[2015.06.17-17.16.21:832][333]LogMemory: Virtual Memory: 1581.46 MB used, 8388608.00 MB total
+[2015.06.17-17.16.21:832][333]LogMemory: 
+[2015.06.17-17.16.21:832][333]Allocator Stats for TBB: (not implemented)
+[2015.06.17-17.16.21:867][333]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.17-17.16.21:867][333]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.17-17.16.21:867][333]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.17-17.16.21:867][333]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.17-17.16.21:868][333]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.17-17.16.21:868][333]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2015.06.17-17.16.21:876][333]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043399s)
+[2015.06.17-17.16.21:877][333]LogPlayLevel: PIE: World Init took: (0.001462s)
+[2015.06.17-17.16.21:877][333]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.045116s)
+[2015.06.17-17.16.21:877][333]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.17-17.16.21:880][333]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.06.17-17.16.21:894][333]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.06.17-17.16.21:894][333]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2015.06.17-13.16.21
+[2015.06.17-17.16.21:895][333]LogWorld: Bringing up level for play took: 0.015056
+[2015.06.17-17.16.25:981][407]LogPackageName: SearchForPackageOnDisk took   0.104s to resolve Menu.umap
+[2015.06.17-17.16.26:062][407]LogPackageName: SearchForPackageOnDisk took   0.080s to resolve Menu.umap
+[2015.06.17-17.16.26:063][407]LogNet: Browse: /Game/TopDownBP/Maps/Menu
+[2015.06.17-17.16.26:063][407]LogLoad: LoadMap: /Game/TopDownBP/Maps/Menu
+[2015.06.17-17.16.26:088][407]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012972160
+[2015.06.17-17.16.26:094][407]Cmd: MEM
+[2015.06.17-17.16.26:118][407]LogMemory: Platform Memory Stats for Windows
+[2015.06.17-17.16.26:118][407]LogMemory: Process Physical Memory: 1164.32 MB used, 1245.89 MB peak
+[2015.06.17-17.16.26:118][407]LogMemory: Process Virtual Memory: 1058.05 MB used, 1152.18 MB peak
+[2015.06.17-17.16.26:118][407]LogMemory: Physical Memory: 4630.11 MB used, 8173.22 MB total
+[2015.06.17-17.16.26:118][407]LogMemory: Virtual Memory: 1590.71 MB used, 8388608.00 MB total
+[2015.06.17-17.16.26:118][407]LogMemory: 
+[2015.06.17-17.16.26:118][407]Allocator Stats for TBB: (not implemented)
+[2015.06.17-17.16.26:189][407]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.06.17-17.16.26:191][407]LogAIModule: Creating AISystem for world Menu
+[2015.06.17-17.16.26:192][407]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 60) at 2015.06.17-13.16.26
+[2015.06.17-17.16.26:193][407]LogWorld: Bringing up level for play took: 0.001310
+[2015.06.17-17.16.26:194][407]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.06.17-17.16.27:116][431]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003D9CEA20
+[2015.06.17-17.16.31:886][712]BlueprintLog: New page: Compile TopDownExampleMap
+[2015.06.17-17.16.31:994][712]BlueprintEditorCompileResults: Info [0960.72] Compile of TopDownExampleMap successful! [in 107 ms]
+[2015.06.17-17.23.08:352][929]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.17-17.23.08:353][929]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2015.06.17-17.23.08:353][929]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.06.17-17.23.10:863][929]LogSavePackage: Save=2195.580811ms
+[2015.06.17-17.23.10:863][929]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/TopDownExampleMapCBD9BEA74D7FF7817EB0749A3C9A2BA2.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2015.06.17-17.23.10:916][929]LogFileHelpers: Saving map 'TopDownExampleMap' took 2.473
+[2015.06.17-17.23.11:617][929]LogSavePackage: Save=611.219116ms
+[2015.06.17-17.23.11:617][929]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/TopDownCharacter798B2B5F48BB1BA18A84609E0E576ED2.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2015.06.17-17.24.21:619][922]BlueprintLog: New page: Compile TopDownExampleMap
+[2015.06.17-17.24.21:703][922]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.17-17.24.21:730][922]BlueprintEditorCompileResults: Info [1430.45] Compile of TopDownExampleMap successful! [in 110 ms]
+[2015.06.17-17.27.08:683][731]BlueprintLog: New page: Compile TopDownExampleMap
+[2015.06.17-17.27.08:793][731]BlueprintEditorCompileResults: Info [1597.51] Compile of TopDownExampleMap successful! [in 109 ms]
+[2015.06.17-17.27.12:386][800]LogSavePackage: Save=2175.944336ms
+[2015.06.17-17.27.12:386][800]LogSavePackage: Moving '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Saved/TopDownExampleMap46398DF346BFC3B58F36EE98AEE3866A.tmp' to '../../../../../../Users/Carlos/Documents/GitHub/SugarRushRampage/UNREAL/MyProject2/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2015.06.17-17.27.12:440][800]LogFileHelpers: Saving map 'TopDownExampleMap' took 2.377
+[2015.06.17-17.27.27:224][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.06.17-17.27.28:033][652]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2015.06.17-17.27.35:253][ 78]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.06.17-17.27.35:274][ 78]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003C84B6A0
+[2015.06.17-17.27.35:275][ 78]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002053F060
+[2015.06.17-17.27.35:275][ 78]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002053F740
+[2015.06.17-17.27.35:275][ 78]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003C77FC40
+[2015.06.17-17.27.38:428][170]Cmd: QUIT_EDITOR
+[2015.06.17-17.27.38:735][170]LogExit: Preparing to exit.
+[2015.06.17-17.27.39:828][170]LogExit: Editor shut down
+[2015.06.17-17.27.39:829][170]LogExit: Transaction tracking system shut down
+[2015.06.17-17.27.39:831][170]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002057F100
+[2015.06.17-17.27.39:831][170]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019B2BBA0
+[2015.06.17-17.27.39:831][170]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017CBC720
+[2015.06.17-17.27.39:831][170]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D6B4860
+[2015.06.17-17.27.39:832][170]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019B74540
+[2015.06.17-17.27.39:832][170]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017CBF600
+[2015.06.17-17.27.39:832][170]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002057E340
+[2015.06.17-17.27.39:978][170]LogExit: Object subsystem successfully closed.
+[2015.06.17-17.27.40:030][170]LogModuleManager: Shutting down and abandoning module SequencerWidgets (178)
+[2015.06.17-17.27.40:030][170]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.06.17-17.27.40:030][170]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.06.17-17.27.40:030][170]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.06.17-17.27.40:030][170]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.06.17-17.27.40:030][170]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.06.17-17.27.40:047][170]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.06.17-17.27.40:048][170]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.06.17-17.27.40:048][170]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.06.17-17.27.40:048][170]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.06.17-17.27.40:048][170]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.06.17-17.27.40:048][170]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.06.17-17.27.40:316][170]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.06.17-17.27.40:316][170]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.06.17-17.27.40:316][170]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.06.17-17.27.40:316][170]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.06.17-17.27.40:316][170]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.06.17-17.27.40:316][170]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.06.17-17.27.40:316][170]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.06.17-17.27.40:316][170]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.06.17-17.27.40:316][170]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.06.17-17.27.40:316][170]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.06.17-17.27.40:316][170]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.06.17-17.27.40:316][170]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.06.17-17.27.40:317][170]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.06.17-17.27.40:317][170]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.06.17-17.27.40:317][170]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.06.17-17.27.40:317][170]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.06.17-17.27.40:317][170]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.06.17-17.27.40:317][170]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.06.17-17.27.40:317][170]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.06.17-17.27.40:394][170]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.06.17-17.27.40:395][170]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.06.17-17.27.40:395][170]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.06.17-17.27.40:396][170]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.06.17-17.27.40:396][170]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.06.17-17.27.40:396][170]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.06.17-17.27.40:396][170]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.06.17-17.27.40:396][170]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.06.17-17.27.40:396][170]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.06.17-17.27.40:396][170]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.06.17-17.27.40:396][170]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.06.17-17.27.40:396][170]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.06.17-17.27.40:397][170]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.06.17-17.27.40:397][170]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.06.17-17.27.40:397][170]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.06.17-17.27.40:397][170]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.06.17-17.27.40:397][170]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.06.17-17.27.40:397][170]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.06.17-17.27.40:397][170]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.06.17-17.27.40:397][170]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.06.17-17.27.40:397][170]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.06.17-17.27.40:494][170]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.06.17-17.27.40:494][170]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.06.17-17.27.40:494][170]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.06.17-17.27.40:494][170]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.06.17-17.27.40:494][170]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.06.17-17.27.40:494][170]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.06.17-17.27.40:495][170]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.06.17-17.27.40:495][170]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.06.17-17.27.40:495][170]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.06.17-17.27.40:495][170]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.06.17-17.27.40:495][170]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.06.17-17.27.40:495][170]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.06.17-17.27.40:495][170]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.06.17-17.27.40:496][170]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.06.17-17.27.40:496][170]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.06.17-17.27.40:496][170]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.06.17-17.27.40:496][170]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.06.17-17.27.40:496][170]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.06.17-17.27.40:496][170]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.06.17-17.27.40:496][170]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.06.17-17.27.40:497][170]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.06.17-17.27.40:497][170]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.06.17-17.27.40:497][170]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.06.17-17.27.40:497][170]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.06.17-17.27.40:499][170]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.06.17-17.27.40:499][170]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.06.17-17.27.40:499][170]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.06.17-17.27.40:599][170]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.06.17-17.27.40:599][170]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.06.17-17.27.40:603][170]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.06.17-17.27.40:603][170]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.06.17-17.27.40:604][170]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.06.17-17.27.40:604][170]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.06.17-17.27.40:604][170]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.06.17-17.27.40:604][170]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.06.17-17.27.40:604][170]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.06.17-17.27.40:604][170]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.06.17-17.27.40:605][170]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.06.17-17.27.40:605][170]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.06.17-17.27.40:605][170]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.06.17-17.27.40:605][170]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.06.17-17.27.40:605][170]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.06.17-17.27.40:605][170]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.06.17-17.27.40:605][170]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.06.17-17.27.40:613][170]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.06.17-17.27.40:613][170]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.06.17-17.27.40:613][170]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.06.17-17.27.40:613][170]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.06.17-17.27.40:613][170]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.06.17-17.27.40:613][170]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.06.17-17.27.40:613][170]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.06.17-17.27.40:613][170]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.06.17-17.27.40:613][170]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.06.17-17.27.40:613][170]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.06.17-17.27.40:678][170]LogDerivedDataCache: Shutdown
+[2015.06.17-17.27.40:678][170]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.06.17-17.27.40:678][170]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.06.17-17.27.40:678][170]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.06.17-17.27.40:678][170]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.06.17-17.27.40:678][170]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.06.17-17.27.40:678][170]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.06.17-17.27.40:678][170]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.06.17-17.27.40:678][170]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.06.17-17.27.40:678][170]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.06.17-17.27.40:678][170]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.06.17-17.27.40:679][170]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.06.17-17.27.40:679][170]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.06.17-17.27.40:679][170]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.06.17-17.27.40:679][170]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.06.17-17.27.40:679][170]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.06.17-17.27.40:679][170]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.06.17-17.27.40:679][170]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.06.17-17.27.40:679][170]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.06.17-17.27.40:679][170]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.06.17-17.27.40:679][170]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.06.17-17.27.40:679][170]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.06.17-17.27.40:679][170]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.06.17-17.27.40:679][170]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.06.17-17.27.40:679][170]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.06.17-17.27.40:679][170]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.06.17-17.27.40:679][170]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.06.17-17.27.40:679][170]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.06.17-17.27.40:679][170]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.06.17-17.27.40:679][170]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.06.17-17.27.40:679][170]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.06.17-17.27.40:680][170]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.06.17-17.27.40:680][170]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.06.17-17.27.40:680][170]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.06.17-17.27.40:680][170]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.06.17-17.27.40:680][170]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.06.17-17.27.40:680][170]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.06.17-17.27.40:680][170]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.06.17-17.27.40:680][170]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.06.17-17.27.40:680][170]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.06.17-17.27.40:680][170]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.06.17-17.27.40:689][170]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.06.17-17.27.40:689][170]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.06.17-17.27.40:689][170]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.06.17-17.27.40:689][170]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.06.17-17.27.40:689][170]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.06.17-17.27.40:689][170]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.06.17-17.27.40:689][170]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.06.17-17.27.40:689][170]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.06.17-17.27.40:689][170]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.06.17-17.27.40:691][170]LogExit: Exiting.
+[2015.06.17-17.27.40:708][170]Log file closed, 06/17/15 13:27:40
